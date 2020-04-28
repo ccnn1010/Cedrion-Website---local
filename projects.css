@@ -1,0 +1,331 @@
+html{
+    scroll-behavior: smooth;  
+}
+
+/* Navbar */
+.sticky-top{
+    opacity: 85%;
+}
+.navbar{
+    background-color: #161617!important;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    min-height: 10vh;
+    font-size: .9rem;
+    font-weight: 400;
+    /* box-shadow: 0 2px 4px 0 rgb(0, 0, 0, .5); */
+    /* background-color: #2c2c2c; */
+ 
+}
+
+.nav-link{
+    font-size: 20px;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #00FFFB;
+}
+
+.logo{
+    min-width: 117px;
+    max-width: 87px;
+    margin-left: 20px;
+    border: none;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    /* background-color: #2c2c2c; */
+    /* background-color: rgb(52, 58, 64); */
+    background-color: #0F0E2E;
+}
+
+body{
+    font-size: 1rem;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Monda', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    /* background-color: #1D2326; */
+    /* background-color: #252627;    */
+    /* background-color: #2c2c2c; */
+    /* background-color: rgb(52, 58, 64); */
+    background-color: #0F0E2E;
+}
+
+body p{
+    color: white;
+    margin-top: 10px;
+}
+
+body h2{
+    color: white;
+}
+
+.bg_projects{
+    width: 100%;
+    height: 100vh;
+    background: #43C6AC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(244, 59%, 21%, 0.692), hsla(168, 53%, 52%, 0.589)), url(./img/projects.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(244, 59%, 21%, 0.692), hsla(168, 53%, 52%, 0.589)), url(./img/projects.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    /* background-attachment: fixed; */
+    position: relative;
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-style: none;
+}
+
+#content-projects{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2.5rem;
+    padding-top: 0;
+
+}
+
+#title-projects{
+    
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* text-align: center!important; */
+    padding: 0;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    padding: 0 53px 5px;
+    /* box-shadow: inset 0 -0.5em 0 rgba(208, 0, 227, 0.3); */
+    transition: box-shadow .2s ease-in-out;
+    cursor: pointer;
+    width: 14%;
+    font-size: 3rem;
+    margin-top: 20px;
+    padding-left: 5%;   
+}
+
+.col-12 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.texto-support{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+.texto-support span {
+    margin-top: 0;
+}
+
+#centrar{
+    justify-content: center;
+}
+
+
+/*Container project 1*/
+
+.container_fluid_project1{
+    padding: 3rem;
+    background-color: white;
+}
+
+.container_fluid_project1 p{
+    color: #69696C;
+}
+.container_fluid_project1 h2{
+    color: #0F0E2E;
+}
+
+.pic1{
+    height: 200px;
+    width: 200px;
+    background-color: chartreuse;
+    background-image: url(./img/img-1.png);
+}
+
+.pic2{
+    height: 150px;
+    width: 150px;
+    background-color: blueviolet;
+    background-image: url(./img/img-2.png);
+}
+
+.pic3{
+    height: 110px;
+    width: 110px;
+    background-color: red;
+    /* background-image: url(./img/img-3.png); */
+}
+
+/*Container project 2*/
+
+.container_fluid_project2{
+    background-color: #0F0E2E;
+    padding: 3rem;
+}
+
+.pic4{
+    height: 250px;
+    width: 250px;
+    background-color: blue;
+    background-image: url(./img/img-4.png);
+}
+
+.pic5{
+    height: 250px;
+    width: 250px;
+    background-color: purple;
+}
+
+.pic6{
+    height: 250px;
+    width: 250px;
+    background-color: orange;
+}
+
+/*Container project 3*/
+
+.container_fluid_project3{
+    background-color: white;
+    padding: 3rem;
+}
+
+.container_fluid_project3 h2{
+    color: #0F0E2E;
+}
+
+.container_fluid_project3 p{
+    color: #69696C;
+}
+
+/* Footer */
+
+.site-footer {
+    /* background: linear-gradient(to bottom, purple, rebeccapurple);  */
+    /* background: linear-gradient(to bottom, #5922D5, #B096EA); */
+    /* background: linear-gradient(to bottom, #330867, rgba(177, 150, 234, 0)); */
+    /* padding: 30px 0; */
+    padding: 0;
+    background-color: #161617;
+   }
+ 
+footer{
+     width: 100%;
+    /*  padding:3em; */
+     margin-top: auto;
+ }
+ 
+ 
+.footer-box{
+ /*    border:1px solid blue;  */
+     display: flex;
+     justify-content: center;
+ }
+ 
+ 
+.social-icons{
+  /*  border:1px solid green;  */
+     text-align: center;
+}
+ 
+ /*  
+ .copyright {
+     border:1px solid red;
+    
+ } */
+  
+.copyright h4{
+     color: white;
+     font-size: 1rem;
+     font-weight: bold;
+     text-align: center;
+    }
+ 
+ .fa {
+     padding: 15px;
+     font-size: 1.2rem;
+     color:white;
+}
+ 
+ .fa:hover{
+     color:#00FFFB;
+     /*Alternative colour---  color:  #2c2c2c; */
+     text-decoration: none;
+}
+ 
+ .fab {
+     padding: 15px;
+     font-size: 1.2rem;
+     color: white;
+ }
+ 
+ .fab:hover{
+     color: #00FFFB;
+     /*Alternative colour---   color:  #2c2c2c; */
+     text-decoration: none;
+ } 
+ 
+/* Scroll up to top button */
+    
+.cta-button-3{
+    /*  border: 2px solid green;  */
+   /*  display: table-cell;  */
+    text-align: end;
+    width: 100%;
+    padding-bottom: 50px;
+    margin-top: 10%;
+}
+
+.cta-button-3 {
+    /*   text-align: center;  */
+        padding: 5%;
+       /*  margin-top: 600px; */
+    
+}
+  
+.cta-button-3 a {
+    border:1px solid white; 
+    display: inline-block;
+    color:white;
+    text-decoration: none;
+    padding: 0.5em 0.5em;
+    border-radius: 50%;
+    font-size: 1.5em;
+    margin-right: 40%;
+}
+
+    .cta-button-3 a:hover {
+        color: white;
+        text-decoration: none;
+       /*  Alternative colour--- box-shadow: inset 0 -2em 0 rgba(89,34,213, 0.5); */
+       /* box-shadow: inset 0 -2em 0 rgba(208, 0, 227, 0.3); */ 
+       box-shadow: inset 0 -2em 0 rgba(250, 95, 229, 0.3);
+        /* color: white;
+        background-color: orange;
+        box-shadow: none; */
+    } 
+
+    .cta-button-3_down{
+        margin-left: 20px;
+        
+    }
