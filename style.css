@@ -978,6 +978,7 @@ hr {
     background-size: cover;
 /*     box-shadow: inset 29px 33px 500px 600px rgba(9, 1, 10, 0.692); */
     padding: 10px 30px 10px;
+    overflow:hidden;
 }
 
 
