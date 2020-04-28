@@ -26,9 +26,6 @@ body{
      min-height: 100%; */
 }
 
-.row {
-    margin: 0;
- }
 
 /* Home page container */
 .site-container {
@@ -1180,4 +1177,15 @@ form .form-control:placeholder {
     line-height: 5px;
     padding-left: 10%;
 /*     color: white; */
+}
+
+
+/* This code needs to be at the end of the style sheet */
+.row {
+    margin: 0;
+ }
+
+ .container-fluid {
+    padding-right: 0;
+    padding-left: 0;
 }
