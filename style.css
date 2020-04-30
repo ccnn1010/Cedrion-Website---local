@@ -92,9 +92,10 @@ body{
     position: relative;
     width: 100%;
     height: 100vh;
-    background: #43C6AC;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(244, 59%, 21%, 0.692), hsla(168, 53%, 52%, 0.589)), url(https://s4.gifyu.com/images/Background-image-spiral-dark.md.png);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(244, 59%, 21%, 0.692), hsla(168, 53%, 52%, 0.589)), url(https://s4.gifyu.com/images/Background-image-spiral-dark.md.png); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /*   background: linear-gradient(to right, rgb(10, 4, 27), rgb(33, 5, 95)); */
+    /*  background:  #0F0E2E;  *//* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, hsla(244, 59%, 21%, 0.692), hsla(168, 53%, 52%, 0.589)), url(https://cdn.pixabay.com/photo/2015/05/04/20/03/purple-wallpaper-752886_1280.jpg);    /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, hsla(193, 92%, 5%, 0.70), rgb(0, 9, 12)), url(https://cdn.pixabay.com/photo/2015/05/04/20/03/purple-wallpaper-752886_1280.jpg);   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     /* background-size: cover; */
     /* background-attachment: fixed; */
   /* Background image is centered vertically and horizontally at all times */
@@ -108,6 +109,35 @@ body{
      on the container's size */
   background-size: cover;
 }
+
+
+  
+
+.plasma-image{
+    display:flex;
+    justify-content: center;
+    /* padding: 50px;  */
+   /*  border: 1px solid pink; */
+}
+
+
+.plasma-image img{
+    align-items: center;
+    margin: 0 auto;
+   /*  padding-left: 70px;  */
+    cursor: pointer;
+    height: auto; 
+    width: auto; 
+   /*  max-width: 1000px;
+    max-height: 1000px; */
+ /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  */
+    /* background-color: white; */
+   /*  border-radius: 5px; */
+   /*  padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%; */
+}
+
 
 
 /* Scroll down button */
@@ -139,14 +169,14 @@ body{
     box-shadow: inset 0 -2em 0 rgba(147,54,255, 0.5);
   } 
  
-  
+/*   
 .wave{
     position: absolute;
     bottom: 0;
     width: 100%;
     border-style: none;
 }
-
+ */
 
 .col-12 {
     margin-left: auto;
@@ -180,19 +210,21 @@ body{
 /* Home section Heading and subheading */
 .landing_text{
     justify-content: center;
-    text-align: center;
-    vertical-align: middle; 
+ /*    vertical-align: middle;  */
     
 }
 
 .landing_text h1 {
+    text-align: center;
     font-size: 2em;
-    font-weight: bold;
+    /* font-weight: bold;  */
     color: white;
-    margin-top: 230px; 
+    margin-top: 150px; 
+ /*    z-index: 1; */
 }
 
 .landing_text h4 {
+    text-align: center;
     color: white;
     padding-right:5%;
     padding-left:5%; 
@@ -231,20 +263,26 @@ body{
 /* -----------/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) -----------*/
 @media (min-width:770px) and (max-height: 1366px)  { 
     
-    .landing_text{
-        justify-content: flex-start; 
-        text-align: left; 
-    }
+   /*  .landing_text{
+        justify-content: center; 
+        text-align: center; 
+    } */
     
     .landing_text h1 {
         font-size: 5em;
-        padding-left: 3%;
+       
+        /* padding-left: 3%; */
         /* margin-top: 350px; */
     }
     .landing_text h4 {
         padding-right:0;
+        font-size: 1.5em;
       /*   padding-left:0;  */
-        padding-left: 7%;
+      padding-top: 7%;
+      /*   padding-left: 15%; 
+        padding-right: 15%;  */
+        line-height: 2.5rem;
+        letter-spacing: 3px;
     }
     
     
@@ -337,8 +375,40 @@ and (-webkit-min-device-pixel-ratio: 1) {
     box-shadow: inset 0 -1.5em 0 rgba(147,54,255, 0.5);
     /* box-shadow: inset 0 -1.5em 0 rgba(208, 0, 227, 0.3);  */
   }
+/* 
+  .circles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+  }
+ */
 
 
+/*  */
+/*   #circle9 { */
+/*     background-color:#17153 */C;
+/*     width: 200px; */
+/*     height: 200px; */
+/*     border-radius: 50%; */
+/*     position: absolute; */
+/*     top: -70px; */
+/*     right: -20px; */
+/*   } */
+/*  */
+/*   #circle10 { */
+/*     background-color:#17153 */C;
+/*     width: 500px; */
+/*     height: 500px; */
+/*     border-radius: 50%; */
+/*     position: absolute; */
+/*     bottom: -150px; */
+/*     left: -50px; */
+/*     z-index: 0; */
+/*   } */
 
 
 /* padding for containers */
@@ -353,7 +423,8 @@ and (-webkit-min-device-pixel-ratio: 1) {
 /* what we do content and background colour */
 .about-us{
     color: white;
-    background-color: #0F0E2E;
+    /* background-color: #0F0E2E; */
+    background: linear-gradient(to right, hsla(244, 59%, 21%), hsla(168, 53%, 52%));
     height: 35vh;
     width: 100%;
     padding-left: 45px;
@@ -1193,3 +1264,5 @@ form .form-control:placeholder {
     padding-right: 0;
     padding-left: 0;
 }
+
+
