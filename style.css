@@ -970,7 +970,7 @@ hr {
     overflow:hidden;
     padding-top: 90px;
     padding-bottom: 100px;
-    padding-right: 30px;
+  /*   padding-right: 30px; */
 
 
 }
@@ -981,6 +981,7 @@ hr {
 }
 
 .contact-box-1 h2{
+    padding-top: 50px;
     text-align: left;
     font-size: 2.2rem;
     font-weight: bold;
@@ -1010,8 +1011,10 @@ hr {
 
 
 .form-padding{
-    padding-right: 5%;
-    padding-left: 5%;
+    padding-top: 20px;
+    align-items: center;
+    /* padding-right: 5%;
+    padding-left: 5%; */
 }
 
 
@@ -1161,7 +1164,7 @@ form .form-control:placeholder {
 }
  
  .contact-box-2 h6{
-    margin-top: 30px;
+    margin-top: 60px;
     margin-bottom: 20px;
     font-size: 1.1rem;
     font-weight: bold;
