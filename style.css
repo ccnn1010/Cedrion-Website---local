@@ -210,12 +210,12 @@ body{
 /* Home section Heading and subheading */
 .landing_text{
     justify-content: center;
- /*    vertical-align: middle;  */
+ vertical-align: middle;  
     
 }
 
 .landing_text h1 {
-    text-align: center;
+   /*  text-align: center; */
     font-size: 2em;
     /* font-weight: bold;  */
     color: white;
@@ -224,7 +224,7 @@ body{
 }
 
 .landing_text h4 {
-    text-align: center;
+  /*   text-align: center; */
     color: white;
     padding-right:5%;
     padding-left:5%; 
@@ -278,7 +278,7 @@ body{
         padding-right:0;
         font-size: 1.5em;
       /*   padding-left:0;  */
-      padding-top: 7%;
+     /*  padding-top: 7%; */
       /*   padding-left: 15%; 
         padding-right: 15%;  */
         line-height: 2.5rem;
