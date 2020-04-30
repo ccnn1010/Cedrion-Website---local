@@ -649,7 +649,8 @@ hr {
     justify-content:center;
     width: 100%;
     padding-bottom: 50px;
-    background-color: #0F0E2E;
+   /*  background-color: #0F0E2E; */
+   background: linear-gradient(to right, hsla(244, 59%, 21%), hsla(168, 53%, 52%));
     height: 35vh;
   }  
 
