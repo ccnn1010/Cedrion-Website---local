@@ -103,8 +103,8 @@ body{
     width: 100%;
     height: 100vh;
     background: #43C6AC;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(244, 59%, 21%, 0.692), hsla(168, 53%, 52%, 0.589)), url(https://s4.gifyu.com/images/Background-image-spiral-dark.md.png);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(244, 59%, 21%, 0.692), hsla(168, 53%, 52%, 0.589)), url(https://s4.gifyu.com/images/Background-image-spiral-dark.md.png); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, hsla(244, 59%, 21%, 0.692), hsla(168, 53%, 52%, 0.589)), url(https://cdn.pixabay.com/photo/2015/05/04/20/03/purple-wallpaper-752886_1280.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(20, 11, 54, 0.692), hsla(168, 45%, 2%)), url(https://cdn.pixabay.com/photo/2015/05/04/20/03/purple-wallpaper-752886_1280.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     /* background-size: cover; */
     /* background-attachment: fixed; */
   /* Background image is centered vertically and horizontally at all times */
@@ -150,13 +150,13 @@ body{
   } 
  
   
-.wave{
+/* .wave{
     position: absolute;
     bottom: 0;
     width: 100%;
     border-style: none;
 }
-
+ */
 
 .col-12 {
     margin-left: auto;
@@ -188,6 +188,140 @@ body{
 }
  */
 /* Home section Heading and subheading */
+
+
+
+/* .box{
+    border: 1px solid white;
+} */
+
+.landing-box-1{
+     overflow:hidden;
+     padding-top: 90px;
+     padding-bottom: 100px;
+     justify-content: flex-start; 
+     align-items: center;
+   /*   padding-right: 30px; */
+ }
+
+    .landing-box-1 h1 {
+        padding-left: 5%;
+        font-size: 4em;
+        margin-top: 250px;
+        color: white;
+        letter-spacing: 3px;
+    } 
+    .landing-box-1 p{
+        align-items: center;
+        font-size: 1.5em;
+        color: white;
+        letter-spacing: 2px;
+        line-height: 3rem;
+        padding-top: 5%;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+
+
+ /* Contact-us do content and background colour */
+.plasma-image{
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    opacity: 90%;
+/*    overflow:hidden;  */
+  /*  padding-bottom:80%;  */
+    /* position:relative; */
+/*     height:0; */
+}
+.plasma-image img{
+  height: 600px;
+  width: 900px;
+} 
+
+
+/* Brightness-zoom Container */
+.plasma-image img {
+    transition: transform 2s, filter 1.5s ease-in-out;
+    transform-origin: center center;
+    filter: brightness(65%);
+    cursor: pointer;
+  }
+  
+  /* The Transformation */
+  .plasma-image:hover img {
+    filter: brightness(100%);
+    transform: scale(1.05);
+  }
+
+/* Scroll down button from about to device features */
+/* .cta-button-2{ */
+    /* border: 2px solid green; */
+   /*  display: table-cell; 
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+    #about .cta-button-2 {
+      text-align: center; 
+        padding: 1% 0;
+    }
+  
+    #about .cta-button-2 a {
+        border:1px solid white;
+        margin-top: 50px; 
+        display: inline-block;
+        color:white;
+        text-decoration: none;
+        padding: 0.5em 0.5em;
+        border-radius: 50%;
+        font-size: 1.5em;
+    }
+    
+    #about .cta-button-2 a:hover {
+        color: white;
+        text-decoration: none;
+        box-shadow: inset 0 -2em 0 rgba(208, 0, 227, 0.3); */
+       /*  color: white;
+        background-color: orange;
+        box-shadow: none; */
+ /*    }  */
+
+
+   /*  @media (min-width:600px) and (max-height: 1366px)   {
+        .landing_text h1{
+            font-size: 2rem;
+            padding-bottom: 5%;
+        } */
+                
+       /*  .corona-image{
+            padding-top: 6.5%;  */
+        /*  border: 1px solid pink; */
+/* } */
+     /*    .landing_text img{ */
+           /*  padding: 50px; */
+         /*    max-width: 450px;
+            max-height: 450px;
+        }
+ */
+        
+       /*  .landing_text p{
+            font-size: 1.5rem;
+            line-height: 2.6rem;
+        }
+ */
+        /* #about .cta-button-2 a{
+            margin-top: none;
+        } */
+/*     }
+ */
+
+
+
+/* 
+
 .landing_text{
     justify-content: center;
     text-align: center;
@@ -196,6 +330,7 @@ body{
 }
 
 .landing_text h1 {
+    letter-spacing: 2.5px; 
     font-size: 2em;
     font-weight: bold;
     color: white;
@@ -203,11 +338,15 @@ body{
 }
 
 .landing_text h4 {
+    text-align: center;
     color: white;
     padding-right:5%;
-    padding-left:5%; 
+    padding-left:5%;
+    padding-top: 5%;
+    letter-spacing: 2.5px; 
+    line-height: 2.5rem;
 }
-
+ */
 /*----------  iphone 5 media query ---------- */
 /* @media (max-width: 575.98px) { 
     .landing_text h1 {
@@ -239,23 +378,23 @@ body{
  */
 
 /* -----------/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) -----------*/
-@media (min-width:770px) and (max-height: 1366px)  { 
+/* @media (min-width:770px) and (max-height: 1366px)  {  */
     
-    .landing_text{
+   /*  .landing_text{
         justify-content: flex-start; 
         text-align: left; 
     }
-    
-    .landing_text h1 {
+     */
+    /* .landing_text h1 {
         font-size: 5em;
         padding-left: 3%;
-        /* margin-top: 350px; */
-    }
-    .landing_text h4 {
-        padding-right:0;
+        margin-top: 350px;
+    } */
+  /*   .landing_text h4 {
+        padding-right:0; */
       /*   padding-left:0;  */
-        padding-left: 7%;
-    }
+      /*   padding-left: 7%;
+    } */
     
     
     
@@ -266,7 +405,7 @@ body{
         padding-top: 30%;
     } */
     
- }
+/*  } */
 
  /* -----------Laptop Non-Retina Screens ----------- */
 /*  @media screen 
@@ -324,31 +463,48 @@ and (-webkit-min-device-pixel-ratio: 1) {
     z-index: 1; 
   }
  */
- .highlight {
+/*  .highlight {
     text-decoration: none;
     color:white;
     font-family: sans-serif;
-    padding: 0 5px 5px;
+    padding: 0 5px 5px; */
     /* box-shadow: inset 0 -0.5em 0 rgba(208, 0, 227, 0.3);  */
    /*Alternative colour--- */
  /*    box-shadow: inset 0 -0.5em 0 rgba(89,34,213, 0.5); */
-    box-shadow: inset 0 -0.5em 0 rgba(147,54,255, 0.5);
+   /*  box-shadow: inset 0 -0.5em 0 rgba(147,54,255, 0.5);
     transition: box-shadow .2s ease-in-out;
     cursor: pointer;
-  }
+  } */
 
   
 
-  .highlight:hover {
+/*   .highlight:hover {
     color: white;
-    text-decoration: none;
+    text-decoration: none; */
     /* Alternative colour---  */
    /*  box-shadow: inset 0 -1.5em 0 rgba(89,34,213, 0.5); */
-    box-shadow: inset 0 -1.5em 0 rgba(147,54,255, 0.5);
+  /*   box-shadow: inset 0 -1.5em 0 rgba(147,54,255, 0.5); */
     /* box-shadow: inset 0 -1.5em 0 rgba(208, 0, 227, 0.3);  */
+ /*  } */
+
+  .highlight {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1.7s ease-in-out infinite alternate;
+    -moz-animation: glow 1.7s ease-in-out infinite alternate;
+    animation: glow 1.7s ease-in-out infinite alternate;
   }
-
-
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px rgb(22, 3, 32), 0 0 20px #fff, 0 0 30px rgb(198, 54, 255), 0 0 40px rgb(198, 54, 255), 0 0 50px rgb(198, 54, 255), 0 0 60px rgb(198, 54, 255);
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #f04dff, 0 0 40px #f04dff, 0 0 50px #f04dff, 0 0 60px #f04dff, 0 0 70px #f04dff, 0 0 80px #f04dff;
+    }
+  }
 
 
 /* padding for containers */
@@ -363,7 +519,8 @@ and (-webkit-min-device-pixel-ratio: 1) {
 /* what we do content and background colour */
 .about-us{
     color: white;
-    background-color: #0F0E2E;
+   /*  background-color: #0F0E2E; */
+   background: linear-gradient(to right, hsla(244, 59%, 21%), hsla(168, 53%, 52%));
     height: 35vh;
     width: 100%;
     padding-left: 45px;
@@ -482,7 +639,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
 
 .corona-image img{
     align-items: center;
-    transition: transform .2s;
+    transition: transform 2s, 1.5s ease-in-out;
     margin: 0 auto;
    /*  padding-left: 70px;  */
     cursor: pointer;
@@ -709,7 +866,7 @@ hr {
     width: 100px;
     flex:0 1 auto;
     align-self:center;
-    transition: transform .2s;
+    transition: transform .2s, 1s ease-in-out;
     margin: 0 auto;
     cursor: pointer;
  /*  border:1px solid red;  */
