@@ -247,8 +247,10 @@ h3{
     height: 316px;
     width: 310px;
     margin-top: 20%;
-    background-color: #f2f5f3;
-    /* border: none; */
+    background-color: #eaeae8;
+    /* background-color: #f2f5f3; */
+    border: none;
+    /* box-shadow: 5px 5px 25px #9E9E9E; */
 }
 
 .card h3{

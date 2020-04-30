@@ -18,21 +18,21 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" type="text/css" href="projects.css">
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
 </head>
 
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div class="container-fluid">
+            <!-- <img src="http://files.123inventatuweb.com/14/01/1401906e-2d1e-4dd8-a839-efec600476f9.png" class="logo"></a>  -->
             <a class="navbar-brand" href="index.html"> <img
                     src="http://files.123inventatuweb.com/14/01/1401906e-2d1e-4dd8-a839-efec600476f9.png"
                     class="logo"></a>
-            <!--   <img src="http://files.123inventatuweb.com/14/01/1401906e-2d1e-4dd8-a839-efec600476f9.png" class="logo"></a> -->
-            <button class="navbar-toggler" id="toggler" type="button" data-toggle="collapse"
-                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon" id="icon"></span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -47,7 +47,7 @@
                         <a class="nav-link" href="support.html">Support</a>
                     </li>
                     <li class="nav-item px-3">
-                        <a class="nav-link" href="aboutUs.html">Team</a>
+                        <a class="nav-link" href="#">Team</a>
                     </li>
                     <li class="nav-item px-3">
                         <a class="nav-link" href="contact.html">Contact</a>
@@ -56,35 +56,38 @@
             </div>
         </div>
     </nav>
-
     <section class="bg_projects">
-        <div class="row">
+        <div class="row text-center" id="myRow">
             <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" id="centrar">
-                <span id="title-projects">Projects</span>
+                <!-- <span id="title-projects">Projects</span> -->
+                <h1 class="ml10">
+                    <span class="text-wrapper">
+                      <span class="letters">Projects</span>
+                    </span>
+                  </h1>
                 <p id="content-projects">CEDRION is part of a multi-country cohort accelerated in the BizLab. Lorem
-                    ipsum
-                    dolor sit amet,
-                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et. Lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod sed do eiusmod tempor
-                    incididunt ut labore
-                    et. Lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod.</p>
+                    incididunt ut labore et. Lorem ipsum dolor sit, consectetur. Sed do eiusmod tempor incididunt ut labore
+                    et. Lorem ipsum dolor sit.
+                </p>
             </div>
         </div>
         <!-- <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #0F0E2E;"></path></svg></div> -->
         <div class="wave" style="height: 250px; overflow: hidden;"><svg viewbox="0 0 500 150" preserveaspectratio="none"
                 style="height: 100%; width: 100%;">
                 <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-                    style="stroke: none; fill: #0F0E2E;"></path>
+                    style="stroke: none; fill: #ffff;"></path>
             </svg></div>
     </section>
 
-    <!--Container project 1-->
+    <!------Container project 1--------->
 
     <div class="container_fluid_project1" id="project1">
         <div class="row">
-            <div class="col-12 col-md-6 col-lg-6 col-xl-6">
+            <div class="col-12 col-md-12 col-lg-12 col-xl-12">
                 <div class="row">
-                    <h2>Project 1 -<br>Aeronautics</h2>
+                    <h2>Project 1 - Aeronautics</h2>
                     <p>Lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod sed do eiusmod tempor
                         incididunt ut labore et. Lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod.
                         Lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod sed do eiusmod tempor
@@ -92,11 +95,11 @@
                     </p>
                 </div>
             </div>
-
-            <div class="col-12 col-md-6 col-lg-6 col-xl-6">
+           
+            <!-- <div class="col-12 col-md-6 col-lg-6 col-xl-6" id="section-photos-1">
                 <div class="row">
-                    <div class="col-6">
-                        <div class="pic1 img-fluid rounded-circle mb-3">
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+                        <div class="pic1 img-fluid rounded-circle mb-3"> 
                         </div>
                         <div class="pic2 img-fluid rounded-circle mb-3">
                         </div>
@@ -104,74 +107,243 @@
                    
                 </div>
                 <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="pic3 img-fluid rounded-circle mb-3">
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>  -->
+            <section id="projects">
+                <div class="container-pictures">
+                    <div class="pic1">
+                        <img src="./img/img-1.png">
+                    </div>
+                    <div class="pic1">
+                        <img src="./img/img-2.png">
+                    </div>
+                    <div class="pic1">
+                        <img src="./img/img-3.png" style="margin-left:auto; margin-right:auto;">
+                    </div>
+                </div>
+            </section>
+           
+
+
+        </div>
+        
+            <!-- <div class="col-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="row">
+                    <div class="pic1 img-fluid rounded-circle mb-3"> 
+                    </div>
+                    <div class="pic2 img-fluid rounded-circle mb-3">
+                    </div>
                     <div class="pic3 img-fluid rounded-circle mb-3">
                     </div>
                 </div>
-            </div>
-        
-        </div>
-    </div>
+            </div> -->
+       
+    </div> 
+    <!-------------------------SEGUNDA VERSION--------------------------->
+    <!-- <div class="container_fluid" id="project-1">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12" id="project1-text">
+                <h2>Project 1 -<br>Aeronautics</h2>
+                <p>Lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod sed do eiusmod tempor
+                incididunt ut labore et. Lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod.
+                Lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod sed do eiusmod tempor
+                incididunt ut labore et. Lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod.</p>
+            </div> -->
+            <!-- <div class="row" style="background-color: white; width: 100%; justify-content: center;">
+                <div class="col-4 col-md-4 col-sm-4 col-lg-4">
+                    <div class="pic1 img-fluid rounded-circle mb-3"> 
+                    </div>
+                    <div class="pic2 img-fluid rounded-circle mb-3">
+                    </div>
+                    <div class="pic3 img-fluid rounded-circle mb-3"> 
+                    </div>
+                </div>
+            </div> -->
+            <!-- <div class="items-container" style="background-color: white; width: 100%;">
+                <div class="item-container">
+                    <div class="item">
+                        <div class="content">circle One</div>
+                    </div>
+                </div>
+            
+            
+                <div class="item-container">
+                    <div class="item">
+                        <div class="content">circle two</div>
+                    </div>
+                </div>
+            
+            
+                <div class="item-container">
+                    <div class="item">
+                        <div class="content">circle three</div>
+                    </div>
+                </div>
+            
+            
+            </div> -->
+        <!-- </div>
+    </div> -->
 
-    <!--Container project 2-->
+    
+    <!------Container project 2------->
 
     <div class="container_fluid_project2">
         <div class="row">
-            <div class="col-12 col-md-6 col-lg-6 col-xl-6">
-                <div class="pic4 img-fluid rounded-circle mb-3">
-                </div>
-                <div class="pic5 img-fluid rounded-circle mb-3">
-                </div>
-                <div class="pic6 img-fluid rounded-circle mb-3">
-                </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-6 col-xl-6">
-                <div class="row">
-                    <h2>Project 2 -<br>Biotech</h2>
-                    <p>Lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod sed do eiusmod tempor
+            <div class="col-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="row" id="space">
+                    <h2>Project 2 - Biotech</h2>
+                    <p>Sed do eiusmod sed do eiusmod tempor incididunt ut labore et. Cnsectetur adipiscing elit lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod sed do eiusmod tempor
+                        incididunt ut labore et. Cnsectetur adipiscing elit, sed do eiusmod sed do eiusmod tempor
                         incididunt ut labore et. Lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod.
-                        Lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod sed do eiusmod tempor
-                        incididunt ut labore et. Lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod.
-                    </p>
-
-                    <p>Lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod sed do eiusmod tempor
-                        incididunt ut labore et. Lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod.
-                        Lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod sed do eiusmod tempor
-                        incididunt ut labore et. Lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod.
-                    </p>
-
-                    <p>Lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod sed do eiusmod tempor
-                        incididunt ut labore et. Lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod.
-                        Lorem ipsum dolor sit, consectetur adipiscing.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--Container project 2-->
-
-    <div class="container_fluid_project3">
-        <div class="row">
-            <div class="col-12 col-md-6 col-lg-6 col-xl-6">
-                <div class="row">
-                    <h2>Project 3 -<br>Refrigerating the motor of a drone</h2>
-                    <p>Lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod sed do eiusmod tempor
-                        incididunt ut labore et. Lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod.
-                        Lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod sed do eiusmod tempor
-                        incididunt ut labore et. Lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod.
+                        dolor sit, consectetur adipiscing elit, sed do eiusmod sed do eiusmod tempor
+                        incididunt ut labore et consectetur adipiscing.
                     </p>
                 </div>
             </div>
 
-            <div class="col-12 col-md-6 col-lg-6 col-xl-6">
+            <!-- <div class="col-12 col-md-6 col-lg-6 col-xl-6">
                 <div class="pic1 img-fluid rounded-circle mb-3">
                 </div>
                 <div class="pic2 img-fluid rounded-circle mb-3">
                 </div>
                 <div class="pic3 img-fluid rounded-circle mb-3">
                 </div>
+            </div> -->
+            <section id="projects">
+                <div class="container-pictures">
+                    <div class="pic1">
+                        <img src="./img/img-4.png">
+                    </div>
+                    <div class="pic1">
+                        <img src="./img/img-5.png">
+                    </div>
+                    <div class="pic1" style="margin-left:auto; margin-right:auto;">
+                        <img src="./img/img-6.png">
+                    </div>
+                </div>
+            </section>
+            
+            <!-- <figure class="snip1566">
+                <img src="./img/img-7.png"/>
+                <figcaption><i class="ion-android-add"></i></figcaption>
+                <a href="#"></a>
+              </figure>
+              <figure class="snip1566 hover"><img src="./img/img-8.png"/>
+                <figcaption><i class="ion-android-open"></i></figcaption>
+                <a href="#"></a>
+              </figure>
+              <figure class="snip1566"><img src="./img/img-9.png"/>
+                <figcaption><i class="ion-android-star-outline"></i></figcaption>
+                <a href="#"></a>
+              </figure>
+              <figure class="snip1566"><img src="/>
+                <figcaption><i class="ion-android-stopwatch"></i></figcaption>
+                <a href="#"></a>
+              </figure> -->
+              
+        </div>
+    </div>
+
+
+    <!-- <div class="container_fluid_project2">
+        <div class="row">
+            
+            <section id="projects-2">
+                <div class="container-images">
+                    <div class="pic4">
+                        <img src="./img/img-4.png">
+                    </div>
+                    <div class="pic4">
+                        <img src="./img/img-5.png">
+                    </div>
+                    <div class="pic4">
+                        <img src="./img/img-6.png">
+                    </div>
+                </div>
+
+            </section>
+
+            <div class="col-12 col-md-6 col-lg-6 col-xl-6" id="text-biotech">
+                <div class="row" id="texts">
+                    <h2>Project 2 - Biotech</h2>
+                    <p>Lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod sed do eiusmod tempor
+                        incididunt ut labore et. Lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod.
+                        Lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod sed do eiusmod tempor
+                        incididunt ut labore et. Lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod.
+                    </p>
+
+                    <p>Lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod sed do eiusmod tempor
+                        incididunt ut labore et. Lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod.
+                        Lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod sed do eiusmod tempor
+                        incididunt ut labore et. Lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod.
+                    </p>
+                </div>
             </div>
+        </div>
+    </div> -->
+
+    <!--Container project 3-->
+
+    <div class="container_fluid_project3">
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="row">
+                    <h2>Project 3 - Refrigerating the motor of a drone</h2>
+                    <p>Sed do eiusmod sed do eiusmod tempor incididunt ut labore et. Cnsectetur adipiscing elit lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod sed do eiusmod tempor
+                        incididunt ut labore et. Cnsectetur adipiscing elit, sed do eiusmod sed do eiusmod tempor
+                        incididunt ut labore et. Lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod.
+                        dolor sit, consectetur adipiscing elit, sed do eiusmod sed do eiusmod tempor
+                        incididunt ut labore et consectetur adipiscing.
+                    </p>
+                </div>
+            </div>
+
+            <!-- <div class="col-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="pic1 img-fluid rounded-circle mb-3">
+                </div>
+                <div class="pic2 img-fluid rounded-circle mb-3">
+                </div>
+                <div class="pic3 img-fluid rounded-circle mb-3">
+                </div>
+            </div> -->
+            <section id="projects">
+                <div class="container-pictures">
+                    <div class="pic1">
+                        <img src="./img/img-7.png">
+                    </div>
+                    <div class="pic1">
+                        <img src="./img/img-8.png">
+                    </div>
+                    <div class="pic1" style="margin-left:auto; margin-right:auto;">
+                        <img src="./img/img-9.png">
+                    </div>
+                </div>
+            </section>
+            
+            <!-- <figure class="snip1566">
+                <img src="./img/img-7.png"/>
+                <figcaption><i class="ion-android-add"></i></figcaption>
+                <a href="#"></a>
+              </figure>
+              <figure class="snip1566 hover"><img src="./img/img-8.png"/>
+                <figcaption><i class="ion-android-open"></i></figcaption>
+                <a href="#"></a>
+              </figure>
+              <figure class="snip1566"><img src="./img/img-9.png"/>
+                <figcaption><i class="ion-android-star-outline"></i></figcaption>
+                <a href="#"></a>
+              </figure>
+              <figure class="snip1566"><img src="/>
+                <figcaption><i class="ion-android-stopwatch"></i></figcaption>
+                <a href="#"></a>
+              </figure> -->
+              
         </div>
     </div>
 
@@ -227,6 +399,35 @@
 
 
     <!-- Optional JavaScript -->
+    <script>
+        // Wrap every letter in a span
+var textWrapper = document.querySelector('.ml10 .letters');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml10 .letter',
+    rotateY: [-90, 0],
+    duration: 1300,
+    delay: (el, i) => 45 * i
+  }).add({
+    targets: '.ml10',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+    </script>
+    
+    <script>
+    $(".hover").mouseleave(
+    function () {
+        $(this).removeClass("hover");
+  }
+);
+    </script>
+    
+    
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
