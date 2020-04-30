@@ -967,44 +967,46 @@ hr {
     border: 1px solid white;
 } */
 
-
 .contact-box-1{
-   /*  background: url("https://s0.gifyu.com/images/Team-work-1--cropped.md.jpg") no-repeat center center fixed; */
-   background: linear-gradient(to right, hsla(244, 59%, 21%, 0.692), hsla(168, 53%, 52%, 0.589)), url(https://s0.gifyu.com/images/Team-work-1--cropped.md.jpg);
- /*   opacity: 90%; */
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-/*     box-shadow: inset 29px 33px 500px 600px rgba(9, 1, 10, 0.692); */
-   /*  padding: 10px 30px 10px; */
-   padding-top: 60px;
-   padding-bottom: 60px;
-
-}
-
-
-.contact-box-1 .btn{
-    padding: 8px;
-}
-
-.contact-box-1 h2{
-    text-align: left;
-    font-size: 2.2rem;
-    font-weight: bold;
-    color: white;
-    padding-left: 8%;
-}
-
-.contact-box-1 p{
-    font-size: 1.2rem;
-    text-align: left;
-    padding-top: 8px;
-    padding-right: 4%;
-    color: white;
-    padding-left: 8%;
-}
-
+    /*  background: url("https://s0.gifyu.com/images/Team-work-1--cropped.md.jpg") no-repeat center center fixed; */
+    background: linear-gradient(to right, hsla(244, 59%, 21%, 0.692), hsla(168, 53%, 52%, 0.589)), url(https://s0.gifyu.com/images/Team-work-1--cropped.md.jpg);
+  /*   opacity: 90%; */
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+ /*     box-shadow: inset 29px 33px 500px 600px rgba(9, 1, 10, 0.692); */
+     /* padding: 10px 30px 10px; */
+     overflow:hidden;
+     padding-top: 90px;
+     padding-bottom: 100px;
+   /*   padding-right: 30px; */
+ 
+ 
+ }
+ 
+ 
+ .contact-box-1 .btn{
+     padding: 8px;
+ }
+ 
+ .contact-box-1 h2{
+     padding-top: 50px;
+     text-align: left;
+     font-size: 2.2rem;
+     font-weight: bold;
+     color: white;
+     padding-left: 8%;
+ }
+ 
+ .contact-box-1 p{
+     font-size: 1.2rem;
+     text-align: left;
+     padding-top: 8px;
+     padding-right: 4%;
+     color: white;
+     padding-left: 8%;
+ }
 
 .color-text{
     color:#00FFFB; 
@@ -1065,12 +1067,13 @@ form .form-control:placeholder {
 
 /*------contact-box-2 map */
 .contact-box-2{
-    padding-top: 60px;
-   padding-bottom: 60px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    padding-right: 30px;
 }
  
  .contact-box-2 h6{
-    margin-top: 30px;
+    margin-top: 60px;
     margin-bottom: 20px;
     font-size: 1.1rem;
     font-weight: bold;
@@ -1087,6 +1090,7 @@ form .form-control:placeholder {
     padding-left: 10%;
 /*     color: white; */
 }
+
 
 
 
