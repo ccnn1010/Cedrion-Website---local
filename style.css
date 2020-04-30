@@ -196,49 +196,35 @@ body{
 } */
 
 .landing-box-1{
-     overflow:hidden;
-     padding-top: 90px;
-     padding-bottom: 100px;
-     justify-content: flex-start; 
-     align-items: center;
-   /*   padding-right: 30px; */
- }
+    overflow:hidden;
+    padding-top: 90px;
+    justify-content: flex-start; 
+    align-items: center;
+  /*   padding-right: 30px; */
+}
 
-    .landing-box-1 h1 {
-        padding-left: 5%;
-        font-size: 4em;
-        margin-top: 250px;
-        color: white;
-        letter-spacing: 3px;
-    } 
-    .landing-box-1 p{
-        align-items: center;
-        font-size: 1.5em;
-        color: white;
-        letter-spacing: 2px;
-        line-height: 3rem;
-        padding-top: 5%;
-        padding-right: 5%;
-        padding-left: 5%;
-    }
-
+   .landing-box-1 h1 {
+       padding-left: 5%;
+       font-size: 2em;
+       margin-top: 100px;
+       color: white;
+       letter-spacing: 3px;
+   } 
+   .landing-box-1 p{
+       align-items: center;
+       font-size: 1em;
+       color: white;
+       letter-spacing: 2px;
+       line-height: 2rem;
+       padding-top: 5%;
+   }
 
 
  /* Contact-us do content and background colour */
 .plasma-image{
-    display: flex;
+    display:flex;
     justify-content: center;
-    padding-top: 10%;
-    opacity: 90%;
-/*    overflow:hidden;  */
-  /*  padding-bottom:80%;  */
-    /* position:relative; */
-/*     height:0; */
 }
-.plasma-image img{
-  height: 600px;
-  width: 900px;
-} 
 
 
 /* Brightness-zoom Container */
@@ -246,7 +232,13 @@ body{
     transition: transform 2s, filter 1.5s ease-in-out;
     transform-origin: center center;
     filter: brightness(65%);
-    cursor: pointer;
+    margin: 0 auto;
+    /*  padding-left: 70px;  */
+     cursor: pointer;
+     height: auto; 
+     width: auto; 
+     max-width: 400px;
+     max-height: 400px; 
   }
   
   /* The Transformation */
@@ -254,6 +246,82 @@ body{
     filter: brightness(100%);
     transform: scale(1.05);
   }
+
+  .highlight {
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1.7s ease-in-out infinite alternate;
+    -moz-animation: glow 1.7s ease-in-out infinite alternate;
+    animation: glow 1.7s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px rgb(22, 3, 32), 0 0 20px #fff, 0 0 30px rgb(198, 54, 255), 0 0 40px rgb(198, 54, 255), 0 0 50px rgb(198, 54, 255), 0 0 60px rgb(198, 54, 255);
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #f04dff, 0 0 40px #f04dff, 0 0 50px #f04dff, 0 0 60px #f04dff, 0 0 70px #f04dff, 0 0 80px #f04dff;
+    }
+  }
+
+
+    @media (min-width:770px) and (max-height: 1366px)   {
+        .landing-box-1 h1 {
+            padding-left: 5%;
+            font-size: 4rem;
+            margin-top: 250px;
+        } 
+       /*  .corona-image{
+            padding-top: 6.5%;  */
+        /*  border: 1px solid pink; */
+/* } */.highlight {
+            font-size: 4rem;
+}
+   
+   
+
+
+        .landing-box-1 p{
+            font-size: 1.8rem;
+            letter-spacing: 2px;
+            line-height: 3rem;
+        }
+
+
+        .plasma-image {
+            padding-top: 30%;
+        }
+
+        .plasma-image img{
+            max-width: 900px;
+            max-height: 650px;
+        }
+
+        
+   
+        /* #about .cta-button-2 a{
+            margin-top: none;
+        } */
+    }
+
+
+
+    
+       
+    
+
+
+
+
+
+
+
+
+
+
+
 
 /* Scroll down button from about to device features */
 /* .cta-button-2{ */
@@ -487,25 +555,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
     /* box-shadow: inset 0 -1.5em 0 rgba(208, 0, 227, 0.3);  */
  /*  } */
 
-  .highlight {
-    font-size: 80px;
-    color: #fff;
-    text-align: center;
-    -webkit-animation: glow 1.7s ease-in-out infinite alternate;
-    -moz-animation: glow 1.7s ease-in-out infinite alternate;
-    animation: glow 1.7s ease-in-out infinite alternate;
-  }
   
-  @keyframes glow {
-    from {
-      text-shadow: 0 0 10px rgb(22, 3, 32), 0 0 20px #fff, 0 0 30px rgb(198, 54, 255), 0 0 40px rgb(198, 54, 255), 0 0 50px rgb(198, 54, 255), 0 0 60px rgb(198, 54, 255);
-    }
-    
-    to {
-      text-shadow: 0 0 20px #fff, 0 0 30px #f04dff, 0 0 40px #f04dff, 0 0 50px #f04dff, 0 0 60px #f04dff, 0 0 70px #f04dff, 0 0 80px #f04dff;
-    }
-  }
-
 
 /* padding for containers */
 .padding{
