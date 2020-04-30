@@ -244,7 +244,7 @@ body{
   /* The Transformation */
   .plasma-image:hover img {
     filter: brightness(100%);
-    transform: scale(1.05);
+    transform: scale(1.2);
   }
 
 
