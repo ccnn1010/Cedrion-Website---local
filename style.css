@@ -120,35 +120,57 @@ body{
 }
 
 
+/* 
+.cta-button-home {
+    text-align: center; 
+  }
+
+.cta-button-home a {
+    display: inline-block;
+    color: white;
+    opacity: 10%;
+    text-decoration: none;
+    font-size: 6rem;
+  }
+  
+ .cta-button-home a:hover {
+    color: blue;
+  } 
+  */
+
+
+
+
+
 /* Scroll down button */
-/* #home .cta-button {
+ #home .cta-button {
     text-align: center; 
     padding: 5% 0;
     padding-top: 15%; 
   
-  } */
+  } 
 
-/*   #home .cta-button a {
-    border:1px solid white; 
+  #home .cta-button a {
+  /*   border:1px solid white;  */
     display: inline-block;
-    color:white; */
+    color:white; 
     /* background-color: white;
     color:#800080; */
- /*    text-decoration: none;
+    text-decoration: none;
     padding: 0.5em 0.5em;
-    border-radius: 50%; */
+    /* border-radius: 50%;  */
     /* box-shadow: inset rgba(94, 6, 75, 0.466) 0 2px 1px, inset rgba(0,0,0,0.3) 0 -2px 1px; */
-   /*  font-size: 1.5em;
-  } */
+   /*  font-size: 1.5em;*/
+  } 
   
-/*   #home .cta-button a:hover {
-    color: white; */
-    /* box-shadow: inset 0 -2em 0 rgba(208, 0, 227, 0.3);  */
+  #home .cta-button a:hover {
+   /*color: white; */
+    box-shadow: inset 0 -2em 0 rgba(208, 0, 227, 0.3); 
     /*Alternative colour---  */
   /*   box-shadow: inset 0 -2em 0 rgba(89,34,213, 0.5); */
-  /*   box-shadow: inset 0 -2em 0 rgba(147,54,255, 0.5);
+  /*   box-shadow: inset 0 -2em 0 rgba(147,54,255, 0.5);*/
   } 
-  */
+
   
 /* .wave{
     position: absolute;
@@ -156,7 +178,7 @@ body{
     width: 100%;
     border-style: none;
 }
- */
+ 
 
 .col-12 {
     margin-left: auto;
@@ -596,7 +618,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
 /* iphone 5 media query */
  @media (min-width:320px) and (max-height: 680px)  { 
     .about-us{
-        height: 46vh;
+        height: 40vh;
     }
    
     .about-us h1{
@@ -615,11 +637,11 @@ and (-webkit-min-device-pixel-ratio: 1) {
 /* -----------/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) -----------*/
 @media (min-width:770px) and (max-height: 1366px)  {
     .about-us{
-        height: 35vh;
+        height: 45vh;
     }
 
     .about-us h1{
-        margin-top: 20px;
+        margin-top: 120px;
         font-size: 2.8rem;
     }
     .about-us p {
@@ -1420,4 +1442,128 @@ form .form-control:placeholder {
  .container-fluid {
     padding-right: 0;
     padding-left: 0;
+}
+
+
+#dot-nav ul{
+    list-style: none;
+}
+
+#dot-nav ul .fas{
+    color: rgba(138, 135, 138, 0.5);
+    font-size: 0.8rem;
+}
+
+
+#dot-nav ul .fas:hover{
+    color: rgb(155, 42, 207);
+    text-decoration: none;
+}
+
+#dot-nav ul > :first-child .fas {
+    color: rgb(155, 42, 207);
+    font-size: 0.8rem;
+  }
+
+
+/* 
+#dot-nav{    
+	right: 10px;
+	top: 50%;
+	margin-top: -50px;
+	height: 100px;
+	z-index: 999;
+}
+
+#dot-nav ul {
+	list-style: none;
+	margin:0;
+	padding: 0;
+}
+#dot-nav li {
+	position: relative;
+	background-color: #bdc3c7;
+	border:3px solid #bdc3c7;
+	border-radius: 15px 15px 15px 15px;
+	cursor: pointer;
+	padding: 5px;
+	height: 10px;
+	margin: 10px 10px 0px 0px;
+	width: 10px;
+	vertical-align:bottom;
+}
+#dot-nav li.active, #dot-nav li:hover {
+	background-color: #8e44ad;
+}
+
+#dot-nav a {
+	outline: 0;
+	vertical-align:top;
+	margin: 0px 0px 0px 25px;
+	position: relative;
+	top:-5px;
+}
+.awesome-tooltip + .tooltip > .tooltip-inner {
+    /*background-color: #8e44ad;*/ 
+/*     color: #f5f5f5; 
+    border: 1px solid #8e44ad; 
+}
+.awesome-tooltip + .tooltip.left > .tooltip-arrow{
+    top:50%;
+    right:0;
+    margin-top:-5px;
+    border-top:5px solid transparent;
+    border-bottom:5px solid transparent;
+    border-left:5px solid #8e44ad;
+}  */
+
+.landing-box-1 .homeButton{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  /*   padding-top: 30px; */
+   
+  
+   /*  border-width: thin; */
+  
+}
+
+ .button2{
+    font-size: 1rem;
+    border: solid 1px white;
+    background-color:transparent;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 4px;
+   /*  font-weight: bold; */
+    color: white;
+    
+    
+}
+
+.button2:hover {
+    color:white;
+    /* box-shadow: inset 0 -3em 0 rgba(89,34,213, 0.6); */
+    box-shadow: inset 0 -3em 0 rgba(215, 54, 255, 0.6) ;
+     /*  color:#00FFFB; */
+    background-color: transparent;
+    border-color: transparent;
+   /*  color: #69696C; */
+    /* color: #0F0E2E; */
+    text-decoration: none;
+}
+
+@media screen and (min-width:767px){
+	.button2 {display:block}
+}
+@media screen and (max-width:766px){
+	.button2{display:none}
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
 }
