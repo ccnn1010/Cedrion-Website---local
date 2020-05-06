@@ -2,19 +2,32 @@ html{
     scroll-behavior: smooth;  
 }
 
-.ml10 {
+@media (max-width: 928px) {
+    /* .container-fotos {
+        display: flex; 
+        margin-left: 21rem; 
+        margin-right: 21rem;
+    } */
+    .container-pictures{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+        /* margin: 45px; */
+
+    }
+} 
+/* .ml10 {
     position: relative;
     font-weight: 900;
     font-size: 4em;
     color: white;
   }
   
-
-  /* with new navbar you need to change padding-top to 2em */
   .ml10 .text-wrapper {
     position: relative;
     display: inline-block;
-    padding-top: 2em;
+    padding-top: 0.2em;
     padding-right: 0.05em;
     padding-bottom: 0.1em;
     overflow: hidden;
@@ -30,10 +43,26 @@ html{
     margin-left: auto;
     margin-right: auto;
   }
-  
+   */
  
 
 /* Navbar */
+
+/* .sticky-top{
+    opacity: 85%;
+} */
+.navbar{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    min-height: 10vh;
+    font-size: .9rem;
+    font-weight: 400;
+    /* box-shadow: 0 2px 4px 0 rgb(0, 0, 0, .5); */
+    /* background-color: #2c2c2c; */
+    background-color: #161617!important;
+        
+}
 
 .navbar{
     /*    background-color: #0F0E2E!important; */
@@ -43,16 +72,8 @@ html{
        padding: 0;
        min-height: 10vh;
        font-size: .9rem;
-       font-weight: 400;
-       /* box-shadow: 0 2px 4px 0 rgb(0, 0, 0, .5); */
-       /* background-color: #2c2c2c; */
-       
-       
+       font-weight: 400; 
    }
-   /* .bg-dark{
-       background-color: #0F0E2E!important!;
-   } */
-   
    
    
    .nav-link{
@@ -65,22 +86,31 @@ html{
    .navbar-dark .navbar-nav .nav-link {
        color: white;
    }
+   
    .navbar-dark .navbar-nav .nav-link:hover{
-       /* color: #00FFFB; */
-       color: #9336FF;
+      color: #bb51ce; 
+     background: rgba(59, 57, 59, 0.616);
+    transition: background .3s;
+    border-radius: 5px; 
    }
    
-   .logo{
-       min-width: 117px;
-       max-width: 87px;
-       margin-left: 20px;
+   .navbar-dark .navbar-toggler  {
        border: none;
+       outline: none;
+     }
+   
+     .active a{
+       font-weight: bold;
    }
-
-
-
-
-
+   
+   .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+       color: #bb51ce; 
+   }
+.logo{
+    min-width: 117px;
+    max-width: 87px;
+    margin-left: 20px;
+}
 
 .container{
     display: flex;
@@ -109,14 +139,31 @@ body{
 body p{
     color: white;
     margin-top: 10px;
+    font-size: 1.1rem;
+    
+}
+
+body h1{
+    font-size: 4.1rem;
+    margin-bottom: .5rem;
+    font-family: inherit;
+    line-height: 1.2;
+    text-align: left;
+    padding: 2.5rem;
+    padding-bottom: 0;
+    color: white;
+    font-weight: bold;
+    padding-top: 0;
 }
 
 body h2{
     color: white;
+    font-family: 'Monda', sans-serif;
+    font-size: 2.7rem;
     
 }
 
-.bg_projects{
+#bg_projects{
     width: 100%;
     height: 100vh;
     background: #43C6AC;  /* fallback for old browsers */
@@ -136,15 +183,17 @@ body h2{
 
 #content-projects{
     display: flex;
-    height: 430px;
+    /* height: 430px; */
     width: 100%;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     padding: 2.5rem;
-    padding-top: 0;
-    font-weight: bold;
-    font-size: 1.1rem;
+    padding-top: 6%;
+    /* font-weight: bold; */
+    font-size: 1.3rem;
+    text-align: left;
+    line-height: 2.6rem;
 }
 
 #title-projects{
@@ -171,6 +220,17 @@ body h2{
     margin-right: auto; */
 }
 
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 1%;
+}
+
 .texto-support{
     display: flex;
     height: 100vh;
@@ -183,6 +243,7 @@ body h2{
 
 #centrar{
     justify-content: center;
+    margin-top: 7%;
 }
 
 
@@ -196,9 +257,16 @@ body h2{
 
 .container_fluid_project1 p{
     color: #69696C;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: left;
+    font-size: 1.25rem;
+    padding-top: 15px;
+    line-height: 2.6rem;
 }
 .container_fluid_project1 h2{
     color: #0F0E2E;
+    
 }
 
 #project1{
@@ -207,6 +275,12 @@ body h2{
 }
 #project1 h2{
     font-weight: bold;
+    padding: 3%;
+    padding-bottom: 0%;
+}
+
+#project1 p{
+    font-weight: lighter;
 }
 
   /* .pic1{
@@ -331,7 +405,14 @@ body h2{
     box-shadow: 10px 7px 12px 7px #a4ced4;
     border: 3px #fff;
     margin: 23px 22px 5px 5px;
+    transition: transform 2s, 1.5s ease-in-out;
 }
+
+.pic1 img:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+  }
 
 
 
@@ -369,12 +450,35 @@ body h2{
 .container_fluid_project2 {
     padding: 3.5rem;
     background: linear-gradient(to right, hsla(244, 59%, 21%, 0.692), hsla(168, 53%, 52%, 0.589));
+
+}
+.container_fluid_project2 h2{
+    font-weight: bold;
+    padding: 2%;
+    padding-bottom: 0%;
+}
+
+
+.container_fluid_project2 p{
+    color: white;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: left;
+    font-size: 1.25rem;
+    padding-top: 15px;
+    line-height: 2.6rem;
 }
 
 #projects-2{
     margin-right: auto;
     margin-left: auto;
     margin-top: 2%;
+}
+
+#project2 h2{
+    font-weight: bold;
+    padding: 2%;
+    padding-bottom: 0%;
 }
 
 #projects .container-images{
@@ -420,20 +524,40 @@ body h2{
 /*Container project 3*/
 
 .container_fluid_project3{
+    /* background-color: white;
+    padding: 3rem; */
     background-color: white;
-    padding: 3rem;
+    display: flex;
 }
 
 .container_fluid_project3 h2{
     color: #0F0E2E;
     font-weight: bold;
-    padding: 1.5rem;
+    padding: 3rem;
+    padding-bottom: 0%;
 }
 
 .container_fluid_project3 p{
     color: #69696C;
-    padding: 1.5rem;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: left;
+    font-size: 1.25rem;
+    padding-top: 15px;
+    line-height: 2.6rem;
 }
+
+#project3{
+    padding: 2.5rem;
+    padding-top: 24px;
+}
+
+#project3 h2 {
+    font-weight: bold;
+    padding: 3%;
+    padding-bottom: 0%;
+}
+
 #space{
     padding: 1rem;
 }
@@ -463,6 +587,8 @@ footer{
 .social-icons{
   /*  border:1px solid green;  */
      text-align: center;
+     padding-top: 30px;
+     padding-bottom: 30px;
 }
  
  /*  

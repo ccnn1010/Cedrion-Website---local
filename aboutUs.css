@@ -13,6 +13,11 @@ html{
 }
 
 /* Navbar */
+
+/* .sticky-top{
+    opacity: 85%;
+} */
+
 .navbar{
     /*    background-color: #0F0E2E!important; */
        background-color: #161617!important;
@@ -21,16 +26,8 @@ html{
        padding: 0;
        min-height: 10vh;
        font-size: .9rem;
-       font-weight: 400;
-       /* box-shadow: 0 2px 4px 0 rgb(0, 0, 0, .5); */
-       /* background-color: #2c2c2c; */
-       
-       
+       font-weight: 400; 
    }
-   /* .bg-dark{
-       background-color: #0F0E2E!important!;
-   } */
-   
    
    
    .nav-link{
@@ -43,17 +40,32 @@ html{
    .navbar-dark .navbar-nav .nav-link {
        color: white;
    }
+   
    .navbar-dark .navbar-nav .nav-link:hover{
-       /* color: #00FFFB; */
-       color: #9336FF;
+      color: #bb51ce; 
+     background: rgba(59, 57, 59, 0.616);
+    transition: background .3s;
+    border-radius: 5px; 
    }
    
-   .logo{
-       min-width: 117px;
-       max-width: 87px;
-       margin-left: 20px;
+   .navbar-dark .navbar-toggler  {
        border: none;
+       outline: none;
+     }
+   
+     .active a{
+       font-weight: bold;
    }
+   
+   .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+       color: #bb51ce; 
+   }
+
+.logo{
+    min-width: 117px;
+    max-width: 87px;
+    margin-left: 20px;
+}
 
 .container{
     display: flex;
@@ -78,6 +90,10 @@ body{
 body p{
     color: white;
     margin-top: 10px;
+    font-weight: inherit;
+    font-family: 'Monda', sans-serif;
+    line-height: 2.6rem;
+    font-size: 1.1rem;
 }
 
 body h2{
@@ -137,6 +153,8 @@ img{
 }
 .white{
     color: white;
+    font-size: 2.45rem;
+    font-weight: bold;
 }
 
 
@@ -145,9 +163,30 @@ img{
 .container-fluid_team{
     padding: 3rem;
     height: 50%;
-    background-color: #0F0E2E; 
-    
+    /* background-color: #0F0E2E; */
+    /* background-image: url('./img/grupo.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    display: flex;
+    opacity: 0.6;
+    position: relative;
 }
+
+.container-fluid_team p{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    padding: 2rem;
+    color: white;
+}
+
+
+
+#myCol{
+    /* background-color: transparent; */
+}
+
 
 #team{
     max-width: 100%;
@@ -207,8 +246,15 @@ h2{
 }
 #title-founders{
     color: #0F0E2E;
-    font-weight: 300;
-    font-size: 1.7rem;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    max-width: 100%;
 }
 
 .row_image{
