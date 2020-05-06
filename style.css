@@ -13,17 +13,8 @@
 
 
 body{
-  /*   font-family: 'Open Sans', sans-serif; */
     font-family: 'Monda', sans-serif;
-   /*  background-color: #2C2C2C; */
-   /*  background-color: #0F0E2E; */
-
-  background-color: white; 
-   /* background: -webkit-linear-gradient(to right, hsl(244, 59%, 21%), hsl(168, 53%, 52%));  */ /* Chrome 10-25, Safari 5.1-6 */
-   /*  background: linear-gradient(to right, hsl(244, 59%, 21%), hsl(168, 53%, 52%));  *//* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
- /*  display: flex;
-    flex-direction: column; 
-     min-height: 100%; */
+    background-color: white; 
 }
 
 
@@ -40,10 +31,12 @@ body{
   }
 
 
-/* Navbar */
+/* ------------Navbar ----------------*/
 /* .sticky-top{
     opacity: 85%;
 } */
+
+
 .navbar{
  /*    background-color: #0F0E2E!important; */
     background-color: #161617!important;
@@ -52,16 +45,8 @@ body{
     padding: 0;
     min-height: 10vh;
     font-size: .9rem;
-    font-weight: 400;
-    /* box-shadow: 0 2px 4px 0 rgb(0, 0, 0, .5); */
-    /* background-color: #2c2c2c; */
-    
-    
+    font-weight: 400; 
 }
-/* .bg-dark{
-    background-color: #0F0E2E!important!;
-} */
-
 
 
 .nav-link{
@@ -76,8 +61,6 @@ body{
 }
 
 .navbar-dark .navbar-nav .nav-link:hover{
-    /* color: #00FFFB; */
- /*   color: #9336FF;  */
    color: #bb51ce; 
   background: rgba(59, 57, 59, 0.616);
  transition: background .3s;
@@ -95,8 +78,6 @@ body{
 
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
     color: #bb51ce; 
-   /*  background-color: rgba(57, 57, 59, 0.616);
-    border-radius: 5px; */
 }
 
 
@@ -112,13 +93,13 @@ body{
     width: 100%;
     margin: 0px;
     padding: 0px;
-    /* background-color: #2c2c2c; */
-    /* background-color: rgb(52, 58, 64); */
     background-color: #0F0E2E;
 }
 
 
-/* Home section */
+/*--------------- Home section ---------------*/
+
+
 #home{
     position: relative;
     width: 100%;
@@ -126,71 +107,53 @@ body{
     background: #43C6AC;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, hsla(244, 59%, 21%, 0.692), hsla(168, 53%, 52%, 0.589)), url(./img/Homepage-background.png);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, rgba(20, 11, 54, 0.692), hsla(168, 45%, 2%)), url(./img/Homepage-background.png); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    /* background-size: cover; */
-    /* background-attachment: fixed; */
-  /* Background image is centered vertically and horizontally at all times */
-  background-position: center center;
-  /* Background image doesn't tile */
-  background-repeat: no-repeat;
-  /* Background image is fixed in the viewport so that it doesn't move when 
-     the content's height is greater than the image's height */
-  background-attachment: fixed;
-  /* This is what makes the background image rescale based
-     on the container's size */
-  background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 
-/* 
-.cta-button-home {
-    text-align: center; 
-  }
-
-.cta-button-home a {
-    display: inline-block;
-    color: white;
-    opacity: 10%;
-    text-decoration: none;
-    font-size: 6rem;
-  }
-  
- .cta-button-home a:hover {
-    color: blue;
-  } 
-  */
-
-
-
-
+/* background: linear-gradient(to right, rgba(20, 11, 54, 0.692), hsla(168, 45%, 2%)), url(./img/Homepage-background.png); */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/* background-size: cover; */
+/* background-attachment: fixed; */
+/* Background image is centered vertically and horizontally at all times */
+/* background-position: center center; */
+/* Background image doesn't tile */
+/* background-repeat: no-repeat; */
+/* Background image is fixed in the viewport so that it doesn't move when 
+ the content's height is greater than the image's height */
+/* background-attachment: fixed; */
+/* This is what makes the background image rescale based
+ on the container's size */
+/* background-size: cover; */
 
 /* Scroll down button */
- #home .cta-button {
+ /* #home .cta-button {
     text-align: center; 
     padding: 5% 0;
     padding-top: 15%; 
   
-  } 
+  }  */
 
-  #home .cta-button a {
+  /* #home .cta-button a { */
   /*   border:1px solid white;  */
-    display: inline-block;
-    color:white; 
-    /* background-color: white;
-    color:#800080; */
-    text-decoration: none;
-    padding: 0.5em 0.5em;
+  /*   display: inline-block;
+    color:white;  */
+   /*  text-decoration: none;
+    padding: 0.5em 0.5em; */
     /* border-radius: 50%;  */
     /* box-shadow: inset rgba(94, 6, 75, 0.466) 0 2px 1px, inset rgba(0,0,0,0.3) 0 -2px 1px; */
    /*  font-size: 1.5em;*/
-  } 
+ /*  } 
   
-  #home .cta-button a:hover {
+  #home .cta-button a:hover { */
    /*color: white; */
-    box-shadow: inset 0 -2em 0 rgba(208, 0, 227, 0.3); 
+   /*  box-shadow: inset 0 -2em 0 rgba(208, 0, 227, 0.3);  */
     /*Alternative colour---  */
   /*   box-shadow: inset 0 -2em 0 rgba(89,34,213, 0.5); */
   /*   box-shadow: inset 0 -2em 0 rgba(147,54,255, 0.5);*/
-  } 
+/*   }  */
 
   
 /* .wave{
@@ -209,9 +172,9 @@ body{
 
 /* ----------iphone 5 media query ---------- */
 @media (max-width: 360px) { 
-    #home .cta-button {
+  /*   #home .cta-button {
           margin-top: 50px; 
-      }
+      } */
 
       #home{
         height: 105vh;
@@ -240,32 +203,82 @@ body{
 
 .landing-box-1{
     overflow:hidden;
-   /*  padding-top: 90px; */
+   /*padding-top: 90px; */
     justify-content: flex-start; 
     align-items: center;
-  /*   padding-right: 30px; */
+  /*padding-right: 30px; */
 }
 
-   .landing-box-1 h1 {
+.landing-box-1 h1 {
     text-align: center;
-       font-size: 2em;
-       margin-top: 100px;
-       color: white;
-       /* letter-spacing: 3px; */
-       font-weight: bold;
+    font-size: 2em;
+    margin-top: 100px;
+    color: white;
+    /* letter-spacing: 3px; */
+    font-weight: bold;
    } 
 
 
-   .landing-box-1 p{
-       align-items: center;
-       font-size: 1.3rem;
-       color: white;
-       letter-spacing: 2px;
-       line-height: 2rem;
-       padding-top: 5%;
-   }
+.landing-box-1 p{
+    align-items: center;
+    font-size: 1.3rem;
+    color: white;
+    letter-spacing: 2px;
+    line-height: 2rem;
+    padding-top: 5%;
+}
 
-   .landing-box-2 {
+/* ----------- Discover more scroll to next section -------------- */
+
+.landing-box-1 .homeButton{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  /*   padding-top: 30px; */
+   
+  
+   /*  border-width: thin; */
+  
+}
+
+ .button2{
+    font-size: 1rem;
+    border: solid 1px white;
+    background-color:transparent;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 4px;
+   /*  font-weight: bold; */
+    color: white;
+    
+    
+}
+
+.button2:hover {
+    color:white;
+    /* box-shadow: inset 0 -3em 0 rgba(89,34,213, 0.6); */
+    box-shadow: inset 0 -3em 0 rgba(215, 54, 255, 0.6) ;
+     /*  color:#00FFFB; */
+    background-color: transparent;
+    border-color: transparent;
+   /*  color: #69696C; */
+    /* color: #0F0E2E; */
+    text-decoration: none;
+}
+
+@media screen and (min-width:767px){
+	.button2 {display:block}
+}
+@media screen and (max-width:766px){
+	.button2{display:none}
+}
+
+
+
+/*------------ Landing-box 2 -----------------*/
+
+.landing-box-2 {
     display:flex;
     justify-content: center;
     padding: 50px;
@@ -273,10 +286,7 @@ body{
 
 
 
-
-
-
-/* Brightness-zoom Container */
+/* ---------------- Brightness-zoom Container -----------------------*/
 .plasma-image img {
     transition: transform 2s, filter 1.5s ease-in-out;
     transform-origin: center center;
@@ -295,12 +305,8 @@ body{
     filter: brightness(100%);
     transform: scale(1.2);
   }
-
-
  /*  https://w3bits.com/css-image-hover-zoom/ brighten on zoom
  */
-
-
 
 
   .highlight {
@@ -352,8 +358,6 @@ body{
 
 
 
-
-
 /*  ----------large screen and desktop media query ----------  */
 
     @media (min-width:770px) and (max-height: 1366px)   {
@@ -376,9 +380,6 @@ body{
             font-size: 4rem;
 }
    
-   
-
-
         .landing-box-1 p{
             font-size: 1.8rem;
             letter-spacing: 2px;
@@ -391,249 +392,13 @@ body{
             max-height: 480px;
         }
 
-        
-   
         /* #about .cta-button-2 a{
             margin-top: none;
         } */
     }
 
 
-/* Scroll down button from about to device features */
-/* .cta-button-2{ */
-    /* border: 2px solid green; */
-   /*  display: table-cell; 
-    justify-content: center;
-    width: 100%;
-    padding-bottom: 50px;
-}
-
-    #about .cta-button-2 {
-      text-align: center; 
-        padding: 1% 0;
-    }
-  
-    #about .cta-button-2 a {
-        border:1px solid white;
-        margin-top: 50px; 
-        display: inline-block;
-        color:white;
-        text-decoration: none;
-        padding: 0.5em 0.5em;
-        border-radius: 50%;
-        font-size: 1.5em;
-    }
-    
-    #about .cta-button-2 a:hover {
-        color: white;
-        text-decoration: none;
-        box-shadow: inset 0 -2em 0 rgba(208, 0, 227, 0.3); */
-       /*  color: white;
-        background-color: orange;
-        box-shadow: none; */
- /*    }  */
-
-
-   /*  @media (min-width:600px) and (max-height: 1366px)   {
-        .landing_text h1{
-            font-size: 2rem;
-            padding-bottom: 5%;
-        } */
-                
-       /*  .corona-image{
-            padding-top: 6.5%;  */
-        /*  border: 1px solid pink; */
-/* } */
-     /*    .landing_text img{ */
-           /*  padding: 50px; */
-         /*    max-width: 450px;
-            max-height: 450px;
-        }
- */
-        
-       /*  .landing_text p{
-            font-size: 1.5rem;
-            line-height: 2.6rem;
-        }
- */
-        /* #about .cta-button-2 a{
-            margin-top: none;
-        } */
-/*     }
- */
-
-
-
-/* 
-
-.landing_text{
-    justify-content: center;
-    text-align: center;
-    vertical-align: middle; 
-    
-}
-
-.landing_text h1 {
-    letter-spacing: 2.5px; 
-    font-size: 2em;
-    font-weight: bold;
-    color: white;
-    margin-top: 230px; 
-}
-
-.landing_text h4 {
-    text-align: center;
-    color: white;
-    padding-right:5%;
-    padding-left:5%;
-    padding-top: 5%;
-    letter-spacing: 2.5px; 
-    line-height: 2.5rem;
-}
- */
-/*----------  iphone 5 media query ---------- */
-/* @media (max-width: 575.98px) { 
-    .landing_text h1 {
-        font-size: 1.8rem;
-        margin-top:250px;
-    }
-    
-    .landing_text h4 {
-        font-size: 1rem;
-    }
-    
-}
- */
-/* ----------- iPad Pro ----------- */
-/* Portrait and Landscape */
-/* @media only screen 
-  and (min-width: 1024px) 
-  and (max-height: 1366px) 
-  and (-webkit-min-device-pixel-ratio: 1.5) {
-     .landing_text h1 {
-        margin-top:300px;
-    } 
-    
-    .landing_text h4 {
-        margin-top: 10px;
-        font-size: 1.7rem;
-    }
-}
- */
-
-/* -----------/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) -----------*/
-/* @media (min-width:770px) and (max-height: 1366px)  {  */
-    
-   /*  .landing_text{
-        justify-content: flex-start; 
-        text-align: left; 
-    }
-     */
-    /* .landing_text h1 {
-        font-size: 5em;
-        padding-left: 3%;
-        margin-top: 350px;
-    } */
-  /*   .landing_text h4 {
-        padding-right:0; */
-      /*   padding-left:0;  */
-      /*   padding-left: 7%;
-    } */
-    
-    
-    
-    /* .landing_text h1 {
-        margin-top:500px;
-    }  */
-   /*  #home .cta-button {
-        padding-top: 30%;
-    } */
-    
-/*  } */
-
- /* -----------Laptop Non-Retina Screens ----------- */
-/*  @media screen 
-and (min-device-width: 1200px) 
-and (max-device-width: 2560px) 
-and (-webkit-min-device-pixel-ratio: 1) { 
-
-.landing_text{
-    justify-content: flex-start;  
-}
-
-.landing_text h1 {
-    font-size: 5em;
-    margin-top: 350px;
-}
-
-#home .cta-button {
-  padding-top: 10%;
-}
-
-
-  
-} */ 
-
-
-/* ----------- Small laptop Non-Retina Screens ----------- */
-/* @media screen 
-and (max-device-width: 1200px) 
-and (max-device-height: 774px) 
-and (-webkit-min-device-pixel-ratio: 1) { 
-    
-.landing_text{
-        justify-content: flex-start;  
-}
-
-.landing_text h1 {
-    font-size: 5em;
-    margin-top: 350px;
-}
-
-#home .cta-button {
-  padding-top: 10%;
-}
-
-  
-}  */
-
-
-/*  .highlight {
-   background-color: purple; 
-    box-shadow: inset 29px 33px 500px 600px rgba(230, 77, 235, 0.295);
-  padding-left: 5px;
-    padding-right: 5px;
-    border-radius: 5%;
-    z-index: 1; 
-  }
- */
-/*  .highlight {
-    text-decoration: none;
-    color:white;
-    font-family: sans-serif;
-    padding: 0 5px 5px; */
-    /* box-shadow: inset 0 -0.5em 0 rgba(208, 0, 227, 0.3);  */
-   /*Alternative colour--- */
- /*    box-shadow: inset 0 -0.5em 0 rgba(89,34,213, 0.5); */
-   /*  box-shadow: inset 0 -0.5em 0 rgba(147,54,255, 0.5);
-    transition: box-shadow .2s ease-in-out;
-    cursor: pointer;
-  } */
-
-  
-
-/*   .highlight:hover {
-    color: white;
-    text-decoration: none; */
-    /* Alternative colour---  */
-   /*  box-shadow: inset 0 -1.5em 0 rgba(89,34,213, 0.5); */
-  /*   box-shadow: inset 0 -1.5em 0 rgba(147,54,255, 0.5); */
-    /* box-shadow: inset 0 -1.5em 0 rgba(208, 0, 227, 0.3);  */
- /*  } */
-
-  
-
-/* padding for containers */
+/*---------------- padding for corona and device features sections -------------------*/
 .padding{
     padding: 50px 0;
 }
@@ -642,14 +407,14 @@ and (-webkit-min-device-pixel-ratio: 1) {
     width: 100%;
 }
 
-/* what we do content and background colour */
+/* ---------------------  what we do content and background colour --------------------------*/
 .about-us{
     color: white;
-   /*  background-color: #0F0E2E; */
-   background: linear-gradient(to right, hsla(244, 59%, 21%), hsla(168, 53%, 52%));
+/*  background-color: #0F0E2E; */
+    background: linear-gradient(to right, hsla(244, 59%, 21%), hsla(168, 53%, 52%));
     height: 36vh;
     width: 100%;
-    /* padding-left: 45px; */
+/*  padding-left: 45px; */
 }
 
 
@@ -664,11 +429,11 @@ and (-webkit-min-device-pixel-ratio: 1) {
     font-size: 1.2rem;
     text-align: center;
     padding-top: 15px;
- /*    padding-right: 4%; */
+ /* padding-right: 4%; */
 }
 
 
-/* iphone 5 media query */
+/*----------------- iphone 5 media query ----------------*/
  @media (max-width:370px) and (max-height: 680px)  { 
     .about-us{
         height: 40vh;
@@ -711,33 +476,9 @@ and (-webkit-min-device-pixel-ratio: 1) {
     }
 }
 
- /* ----------- Laptop Non-Retina Screens ----------- */
-/*  @media screen 
-and (min-device-width: 1000px) 
-and (max-device-width: 2560px) 
-and (-webkit-min-device-pixel-ratio: 1) { 
-    .about-us{
-        height: 35vh;
-    }
-
-    .about-us h1{
-        margin-top: 100px;
-        font-size: 2rem;
-    }
-    .about-us p {
-        font-size: 1.5rem;
-        padding-top: 10px;
-    }
-
-}  */
 
 
-
-/* Corona discharge image and text */
-
-/* .corona-discharge{
-    border: 1px solid pink;
-} */
+/*-------------- Corona dischange section ----------------*/
 .corona-discharge h2{
     padding-left: 4.5%;
     text-align: left; 
@@ -763,7 +504,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
     display:flex;
     justify-content: center;
     padding: 50px; 
-   /*  border: 1px solid pink; */
+/*  border: 1px solid pink; */
 }
 
 
@@ -771,16 +512,16 @@ and (-webkit-min-device-pixel-ratio: 1) {
     align-items: center;
     transition: transform 2s, 1.5s ease-in-out;
     margin: 0 auto;
-   /*  padding-left: 70px;  */
+/*  padding-left: 70px;  */
     cursor: pointer;
     height: auto; 
     width: auto; 
     max-width: 280px;
     max-height: 280px;
  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  */
-    /* background-color: white; */
-   /*  border-radius: 5px; */
-   /*  padding-left: 2%;
+ /* background-color: white; */
+/*  border-radius: 5px; */
+/*  padding-left: 2%;
     padding-right: 2%;
     padding-top: 2%; */
 }
@@ -793,68 +534,31 @@ and (-webkit-min-device-pixel-ratio: 1) {
   }
 
 
-  .highlight2 {
+ /*  .highlight2 {
     text-decoration: none;
     color: #0F0E2E;
     font-family: sans-serif;
-    padding: 0 5px 5px;
+    padding: 0 5px 5px; */
     /* box-shadow: inset 0 -0.5em 0 rgba(208, 0, 227, 0.3);  */
    /*Alternative colour--- */
  /*    box-shadow: inset 0 -0.5em 0 rgba(89,34,213, 0.5); */
-    box-shadow: inset 0 -0.5em 0 rgba(147,54,255, 0.5);
+   /*  box-shadow: inset 0 -0.5em 0 rgba(147,54,255, 0.5);
     transition: box-shadow .2s ease-in-out;
     cursor: pointer;
-  }
+  } */
 
   
 
-  .highlight2:hover {
+  /* .highlight2:hover {
     color: #0F0E2E;
-    text-decoration: none;
+    text-decoration: none; */
     /* Alternative colour---  */
    /*  box-shadow: inset 0 -1.5em 0 rgba(89,34,213, 0.5); */
-    box-shadow: inset 0 -1.5em 0 rgba(147,54,255, 0.5);
+   /*  box-shadow: inset 0 -1.5em 0 rgba(147,54,255, 0.5); */
     /* box-shadow: inset 0 -1.5em 0 rgba(208, 0, 227, 0.3);  */
-  }
+/*   }
+ */
 
-
-
-
-
-
-/* Scroll down button from about to device features */
-/* .cta-button-2{ */
-    /* border: 2px solid green; */
-   /*  display: table-cell; 
-    justify-content: center;
-    width: 100%;
-    padding-bottom: 50px;
-}
-
-    #about .cta-button-2 {
-      text-align: center; 
-        padding: 1% 0;
-    }
-  
-    #about .cta-button-2 a {
-        border:1px solid white;
-        margin-top: 50px; 
-        display: inline-block;
-        color:white;
-        text-decoration: none;
-        padding: 0.5em 0.5em;
-        border-radius: 50%;
-        font-size: 1.5em;
-    }
-    
-    #about .cta-button-2 a:hover {
-        color: white;
-        text-decoration: none;
-        box-shadow: inset 0 -2em 0 rgba(208, 0, 227, 0.3); */
-       /*  color: white;
-        background-color: orange;
-        box-shadow: none; */
- /*    }  */
 
 /* -----------/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) -----------*/
 @media (min-width:770px) and (max-height: 1366px)    {
@@ -885,61 +589,21 @@ and (-webkit-min-device-pixel-ratio: 1) {
     }
 
 
- /* ----------- Non-Retina Screens ----------- */
- /* @media screen 
-and (min-device-width: 1200px) 
-and (max-device-width: 2560px) 
-and (-webkit-min-device-pixel-ratio: 1) { 
-
-
-}  */
-
-
-/* iphone 5 media query */
-/* @media (max-width: 575.98px) { 
-    .corona-discharge h2{
-        font-size: 2rem;
-    }
-    
-    .corona-discharge p{
-        padding-bottom: 10%;
-    }
-
-    .corona-image img{
-        padding-bottom: 20%;
-    }
-    
-}
- */
-/* @media only screen 
-  and (min-width: 1024px) 
-  and (max-height: 1366px) 
-  and (-webkit-min-device-pixel-ratio: 1.5) {
-    .corona-discharge p{
-        padding-bottom: 10%;
-        font-size: 1.5rem;
-    }
-
-} */
-
-
-
-
 
 /* Line separator between about and device features section */
-hr {
+/* hr {
     margin-top: 50px;
     width: 70%;
     margin-left: auto;
     margin-right: auto;
     border-top: 3px solid rgb(221, 219, 219); 
-    }
+    } */
   
 
 
 
 
-/* device features content and images */
+/*------------------ device features content and images ---------------------*/
 .device-features{
     /* border: 3px solid red; */ 
     display: table-cell;
@@ -1046,27 +710,6 @@ hr {
 }
 
 
-/* @media only screen 
-  and (min-width: 1024px) 
-  and (max-height: 1366px) 
-  and (-webkit-min-device-pixel-ratio: 1.5) {
-   
- .device-features p {
-   font-size: 1.5rem;
- }  
-
- h5 {
-    padding-bottom: 40%;
-  }  
- 
-.device-img{
-     padding-top: 20%;
-     padding-bottom: 10%;
- }
-
-} */
-
-
 /* -----------/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) -----------*/
 @media (min-width:770px) and (max-height: 1366px)   {
     .device-features h2{
@@ -1089,7 +732,7 @@ hr {
 
 
 
-/* Footer */
+/* ---------------- Footer ------------------*/
 /* .site-footer {
    background: linear-gradient(to bottom, purple, rebeccapurple); 
     /* Alternative colour--- background: linear-gradient(to bottom, #5922D5, #B096EA);  */
@@ -1097,8 +740,8 @@ hr {
   }  */
 
 #footer{
-  /*   width: 100%; */
-   /*  margin-top: auto;  */
+/*  width: 100%; */
+/*  margin-top: auto;  */
     background: #161617;
     padding-top: 30px; 
     padding-bottom: 30px; 
@@ -1107,18 +750,16 @@ hr {
 
 
 .footer-box{
-/*    border:1px solid blue;  */
+/*   border:1px solid blue;  */
     display: flex;
     justify-content: center;
 }
 
 
 .social-icons{
- /*  border:1px solid green;  */
+ /* border:1px solid green;  */
     text-align: center;
 }
-
-
 
 /*  
 .copyright {
@@ -1129,7 +770,7 @@ hr {
 .copyright h4{
     color: white;
     font-size: 1rem;
-   /*  font-weight: bold; */
+/*  font-weight: bold; */
     text-align: center;
     padding-top: 4%;
 }
@@ -1140,6 +781,8 @@ hr {
     text-align: left;
 }
  */
+
+
 .fa {
     padding: 10px 15px 5px;
     font-size: 1.2rem;
@@ -1178,7 +821,7 @@ hr {
 
 
 
-/* Scroll up to top button */
+/*-------------- Scroll up to top button -----------------*/
   
 .cta-button-3{
     /*  border: 2px solid green;  */
@@ -1219,52 +862,16 @@ hr {
 
 
 /* ---------------- Contact Us page---------------- */
-/* #contact-us{
-    background-image: url('https://s0.gifyu.com/images/Team-work-1--cropped.md.jpg'); 
-    height: 100vh;  
-    background-attachment: fixed;
-    background-position: center ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: inset 29px 33px 500px 600px rgba(9, 1, 10, 0.692); */
-    /* display: table;
-    height: 100vh; 
-    position: relative;
-    width: 100%;
-    background-size: cover; */
-/* } */
-/* #contact-us{
-    background: url("https://s0.gifyu.com/images/Team-work-1--cropped.md.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-     background-size: cover;
-     box-shadow: inset 29px 33px 500px 600px rgba(9, 1, 10, 0.692);
-}
- */
-
 
 /* I think you need to find a way to identify the target url, and if it is the home page, add the fixed property. If not, then remove the fixed property
  */
 
-
- 
-/* Contact-us do content and background colour */
-.google-maps{
-    overflow:hidden;
-    padding-bottom:40%;
-    position:relative;
-    height:0;
-}
-.google-maps iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-    padding-right: 10%;
-    padding-left: 10%;
-}
+/*------- contact-box-1 contact form -------*/
+/* 
+.form-padding{
+    padding-right: 5%;
+    padding-left: 5%;
+} */
 
 /* .box{
     border: 1px solid white;
@@ -1283,9 +890,8 @@ hr {
      overflow:hidden;
      padding-top: 90px;
      padding-bottom: 100px;
-   /*   padding-right: 30px; */
- 
- 
+/*   padding-right: 30px; */
+
  }
  
  
@@ -1321,13 +927,6 @@ hr {
     color: rgb(201, 166, 206);
 }
 
-
-/*------- contact-box-1 contact form -------*/
-/* 
-.form-padding{
-    padding-right: 5%;
-    padding-left: 5%;
-} */
 
 
 #defaultContactFormName, #defaultContactFormEmail, #exampleFormControlTextarea2{
@@ -1368,17 +967,30 @@ form .form-control:placeholder {
     color: white;
 } 
 
+/*---------------- send button ----------------*/
+.btn{
+    background-color:transparent;
+    border-color: white;
+    font-weight: bold;
+    padding-left: 255px;
+    padding-right: 255px;
+}
+
+.btn:hover {
+    color:white;
+    /* box-shadow: inset 0 -3em 0 rgba(89,34,213, 0.6); */
+    box-shadow: inset 0 -3em 0 rgba(0, 255, 251, 0.5) ;
+     /*  color:#00FFFB; */
+    background-color: transparent;
+    border-color: transparent;
+   /*  color: #69696C; */
+    /* color: #0F0E2E; */
+}
 
 
 
 
-
-
-
-
-
-
-/*------contact-box-2 map */
+/*---------------contact-box-2 ----------*/
 .contact-box-2{
     padding-top: 80px;
     padding-bottom: 100px;
@@ -1405,82 +1017,25 @@ form .form-control:placeholder {
 }
 
 
-
-
-
-
-
-/* 
-
-#form-email, #form-name, #form-message{
-    background-color:#7d7d7d;
-    border: none;
-    opacity: 70%;
-    font-weight: bold;
-} 
-
-
-#form-message{
-    padding-bottom: 100px;
+/*--------------  Map -------------*/
+ 
+.google-maps{
+    overflow:hidden;
+    padding-bottom:40%;
+    position:relative;
+    height:0;
+}
+.google-maps iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
 
-input[type="name"] {
-    color:white;
-}
-
-.form-control{
-    color:white;
-}
-
-form .form-control::-webkit-input-placeholder { 
-    color: white;
-    font-size: 0.9rem;
-  }
-  
-form .form-control::-moz-placeholder {
-    color: white;
-    font-size: 0.9rem;
-  }
-form .form-control:-ms-input-placeholder {
-    color: white;
-    font-size: 0.9rem;
-  }
-form .form-control:placeholder {
-    color: white;
-    font-size: 0.9rem;
-  }
-
-  .form-control:focus {
-    border-color: rgba(89,34,213, 0.5);
-    outline: 0;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(89,34,213, 0.6);
-            box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(89,34,213,0.6);
-  } */
-
-/* 
-  .form-control {
-    color: white;
-} */
-
- .btn{
-    background-color:transparent;
-    border-color: white;
-    font-weight: bold;
-    padding-left: 255px;
-    padding-right: 255px;
-}
-
-.btn:hover {
-    color:white;
-    /* box-shadow: inset 0 -3em 0 rgba(89,34,213, 0.6); */
-    box-shadow: inset 0 -3em 0 rgba(0, 255, 251, 0.5) ;
-     /*  color:#00FFFB; */
-    background-color: transparent;
-    border-color: transparent;
-   /*  color: #69696C; */
-    /* color: #0F0E2E; */
-}
 
 
 
@@ -1540,7 +1095,7 @@ form .form-control:placeholder {
 }
 
 
-#dot-nav ul{
+/* #dot-nav ul{
     list-style: none;
 }
 
@@ -1558,7 +1113,7 @@ form .form-control:placeholder {
 #dot-nav ul > :first-child .fas {
     color: rgb(155, 42, 207);
     font-size: 0.8rem;
-  }
+  } */
 
 
 /* 
@@ -1611,50 +1166,6 @@ form .form-control:placeholder {
     border-bottom:5px solid transparent;
     border-left:5px solid #8e44ad;
 }  */
-
-.landing-box-1 .homeButton{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-  /*   padding-top: 30px; */
-   
-  
-   /*  border-width: thin; */
-  
-}
-
- .button2{
-    font-size: 1rem;
-    border: solid 1px white;
-    background-color:transparent;
-    margin-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 4px;
-   /*  font-weight: bold; */
-    color: white;
-    
-    
-}
-
-.button2:hover {
-    color:white;
-    /* box-shadow: inset 0 -3em 0 rgba(89,34,213, 0.6); */
-    box-shadow: inset 0 -3em 0 rgba(215, 54, 255, 0.6) ;
-     /*  color:#00FFFB; */
-    background-color: transparent;
-    border-color: transparent;
-   /*  color: #69696C; */
-    /* color: #0F0E2E; */
-    text-decoration: none;
-}
-
-@media screen and (min-width:767px){
-	.button2 {display:block}
-}
-@media screen and (max-width:766px){
-	.button2{display:none}
-}
 
 /* .navbar-toggler:focus,
 .navbar-toggler:active,
