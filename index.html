@@ -38,26 +38,35 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ml-auto">
               <li class="nav-item px-3 active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link english" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link spanish" href="#">Inicio <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item px-3">
-                  <a class="nav-link" href="projects.html">Projects</a>
+                  <a class="nav-link english" href="projects.html">Projects</a>
+                  <a class="nav-link spanish" href="projects.html">Proyectos</a>
               </li>
               <li class="nav-item px-3">
-                  <a class="nav-link" href="support.html">Support</a>
+                  <a class="nav-link english" href="support.html">Support</a>
+                  <a class="nav-link spanish" href="support.html">Soporte</a>
               </li>
               <li class="nav-item px-3">
-                  <a class="nav-link" href="aboutUs.html">Team</a>
+                  <a class="nav-link english" href="aboutUs.html">Team</a>
+                  <a class="nav-link spanish" href="aboutUs.html">Equipo</a>
               </li>
               <li class="nav-item px-3">
-                  <a class="nav-link" href="contact.html">Contact</a>
+                  <a class="nav-link english" href="contact.html">Contact</a>
+                  <a class="nav-link spanish" href="contact.html">Contacto</a>
               </li>
-            <!--   <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-us"> </span> EN </a>
+          <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle english" href="http://example.com" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-us"> </span> Language </a>
+                <a class="nav-link dropdown-toggle spanish" href="http://example.com" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-us"> </span> Idioma </a>
+
                 <div class="dropdown-menu" aria-labelledby="dropdown09">
-                    <a class="dropdown-item" href="#fr"><span class="flag-icon flag-icon-fr"> </span> ES </a>
+                    <a class="dropdown-item" href="#fr"><span class="flag-icon flag-icon-fr"> </span> <button class="languageTranslate" onclick="translateToEnglish()">EN</button> </a>
+                    <a class="dropdown-item" href="#fr"><span class="flag-icon flag-icon-fr"> </span> <button class="languageTranslate" onclick="translateToSpanish()">ES</button> </a>
+                    
                 </div>
-            </li> -->
+            </li> 
            <!--  https://forum.pinegrow.com/t/bootstrap-4-multilingual-site-menu/1720 -->
           </ul>
       </div>
@@ -71,7 +80,8 @@
     <div class="container-fluid p-0">
           <div class="row home-row">
             <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 landing-box-1">
-              <h1>We <span class="highlight">drive</span> the flow</h1>
+              <h1 class="english">We <span class="highlight">drive</span> the flow</h1>
+              <h1 class="spanish"> <span class="highlight">Dirigimos</span> el flujo</h1>
              <!--  <div data-spy="affix" id="dot-nav">
                 <ul>
                   <li><a href="#home" class="fas fa-circle"></a></li>
@@ -79,8 +89,15 @@
                   <li><a href="#device-features" class="fas fa-circle"></a> </li>
                 </ul>
               </div>  -->
-              <p>Cooling devices for on-board electronics based on the Corona Effect.</p>
-              <div class=" homeButton"><a href="#about" class="button2">Discover more</a> </div> 
+              <p class="english">Cooling devices for on-board electronics based on the Corona Effect.</p>
+              <p class="spanish">Dispositivos de refrigeración para la electrónica de a bordo basados en el Efecto Corona.</p>
+              <div class="english">
+                <div class="homeButton"><a href="#about" class="button2">Discover more</a> </div> 
+              </div>
+              <div class="spanish">
+                <div class="homeButton"><a href="#about" class="button2">Descubre más</a> </div> 
+              </div>
+              
             <!--   <div class="homeButton"><button type="button" class="btn2 btn-outline-light">Discover more</button></div> -->
               
              
@@ -145,8 +162,10 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-12 col-sm-12 about-us">
-        <h1>What we do</h1>
-        <p>We engineer innovation to design and produce refrigeration devices for on-board electronics, based on the Corona Discharge Effect.</p>
+        <h1 class="english">What we do</h1>
+        <h1 class="spanish">Lo que hacemos</h1>
+        <p class="english">We engineer innovation to design and produce refrigeration devices for on-board electronics, based on the Corona Discharge Effect.</p>
+        <p class="spanish">Diseñamos y producimos dispositivos de refrigeración para la electrónica de a bordo, basados en el Efecto de Descarga de la Corona.</p>
       </div>
   </div>
 </div>
@@ -158,10 +177,14 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-6 corona-discharge">
-         <h2>Corona Discharge Effect</h2><!-- <h2><span class="highlight2">Corona Discharge Effect</span> </h2> -->
-            <p>Ion wind is an electrohydrodynamic phenomenon. Those ions are created in an airflow by taking advantage of the electrostatic forces that arise at the tips of some sharp conductors (such as points or blades) subjected to high voltage relative to ground.</p>
-            <p>The ions go from the Corona Electrode to the collector (ground), and through their way they clash with neutral particles in the air. Like playing billiard. This makes an airflow from one side to the other. Our devices direct the airflow to the heat source, refrigerating it. 
+         <h2 class="english">Corona Discharge Effect</h2><!-- <h2><span class="highlight2">Corona Discharge Effect</span> </h2> -->
+         <h2 class="spanish">Efecto de descarga de la corona</h2>
+            <p class="english">Ion wind is an electrohydrodynamic phenomenon. Those ions are created in an airflow by taking advantage of the electrostatic forces that arise at the tips of some sharp conductors (such as points or blades) subjected to high voltage relative to ground.</p>
+            <p class="english">The ions go from the Corona Electrode to the collector (ground), and through their way they clash with neutral particles in the air. Like playing billiard. This makes an airflow from one side to the other. Our devices direct the airflow to the heat source, refrigerating it. 
              </p>
+
+             <p class="spanish">El viento iónico es un fenómeno electrohidrodinámico. Esos iones se crean en un flujo de aire aprovechando las fuerzas electrostáticas que surgen en las puntas de algunos conductores afilados (como puntas o cuchillas) sometidos a un alto voltaje en relación con la tierra.</p>
+             <p class="spanish">Los iones van del Electrodo de Corona al colector (tierra), y a su paso chocan con las partículas neutras del aire. Como en un juego de billar. Esto hace que el aire fluya de un lado a otro. Nuestros dispositivos dirigen el flujo de aire a la fuente de calor, refrigerándola. </p>
       </div>
       <div class="col-sm-12 col-md-12 col-lg-6 corona-image">
        <!--  <img src="https://s6.gifyu.com/images/corona-effect-2.2abe10332868625bb.png" alt="Corona Image" class="img-responsive"> -->
@@ -183,8 +206,10 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-12 device-features higlight">
-        <h2>Device Features</h2> <!-- <h2><span class="highlight">Device Features</span> </h2> -->
-          <p>Our devices are much smaller and lighter than the actual technologies and they are fully adaptable and do not have any moving parts.</p>
+        <h2 class="english">Device Features</h2> <!-- <h2><span class="highlight">Device Features</span> </h2> -->
+        <h2 class="spanish">Características del dispositivo</h2>
+        <p class="english">Our devices are much smaller and lighter than the actual technologies and they are fully adaptable and do not have any moving parts.</p>
+        <p class="spanish">Nuestros dispositivos son mucho más pequeños y ligeros que las tecnologías actuales y son totalmente adaptables y no tienen ninguna parte móvil.</p>
       </div>
  
 </div> 
@@ -200,7 +225,8 @@
 <!-- -Dark version of image  -->
 <img src="./img/light-icon-outline-dark.png" alt="Light" class="img-responsive"> 
 </div>
-<h5>Light</h5>
+<h5 class="english">Light</h5>
+<h5 class="spanish">Luz</h5>
 </div> 
 
 <div class="col-sm-12 col-md-4 col-lg-4 device-heading ">
@@ -208,7 +234,8 @@
    <!--  <img src="https://s5.gifyu.com/images/Compact-icon-outline-white.png" alt="Compact" class="img-responsive"> -->
   <!-- Dark version--> <img src="./img/Compact-icon-outline-dark.png" alt="Compact" class="img-responsive"> 
 </div>
-<h5>Compact</h5>
+<h5 class="english">Compact</h5>
+<h5 class="spanish">Compacto</h5>
 </div> 
 
 <div class="col-sm-12 col-md-4 col-lg-4 device-heading ">
@@ -217,7 +244,8 @@
     <!-- <img src="https://s5.gifyu.com/images/adaptable-icon-outline-white149ff2104e6fdac1.png" alt="Adaptable" class="img-responsive">  -->
    <!-- Dark version--> <img src="./img/adaptable-icon-outline-dark.png" alt="Compact" class="img-responsive"> 
 </div>
-<h5>Adaptable</h5>
+<h5 class="english">Adaptable</h5>
+<h5 class="spanish">Adaptable</h5>
 </div> 
   </div>
 
@@ -234,7 +262,8 @@
        <!--  <img src="  https://s5.gifyu.com/images/low-electric-consumption-icon-outline-white812ff98402330a75.png" alt="Low electric consumption" class="img-responsive"> -->
 <!--  Dark version--> <img src="./img/low-electric-consumption-icon-outline-dark.png" alt="Low electric consumption" class="img-responsive"> 
     </div>
-    <h5>Low electric consumption</h5>
+    <h5 class="english">Low electric consumption</h5>
+    <h5 class="spanish">Bajo consumo eléctrico</h5>
     </div> 
     
     <div class="col-sm-12 col-md-4 col-lg-4 device-heading ">
@@ -242,7 +271,8 @@
         <!-- <img src="https://s5.gifyu.com/images/silent-icon-outline-white.png" alt="Silent" class="img-responsive"> -->
       <!-- Dark version --><img src="./img/silent-icon-outline-dark.png" alt="Silent" class="img-responsive"> 
     </div>
-    <h5>Silent</h5>
+    <h5 class="english">Silent</h5>
+    <h5 class="spanish">Silencioso</h5>
     </div> 
 
     <div class="col-sm-12 col-md-4 col-lg-4 device-heading">
@@ -250,7 +280,8 @@
        <!--  <img src="  https://s5.gifyu.com/images/No-moving-parts-icon-outline-white.png" alt="No moving parts" class="img-responsive"> -->
         <!--  Dark version -->  <img src="./img/No-moving-parts-icon-outline-dark.png" alt="No moving parts" class="img-responsive"> 
     </div>
-    <h5>No moving parts</h5>
+    <h5 class="english">No moving parts</h5>
+    <h5 class="spanish">No hay partes móviles</h5>
     </div> 
       </div>
       </div>

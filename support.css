@@ -33,6 +33,38 @@ html{
     opacity: 85%;
 } */
 
+
+/* --------- Translation ---------*/
+.english{
+    display: block;
+}
+
+.spanish{
+    display: none;
+}
+
+/*--------------- nav bar translate  ---------------*/
+.languageTranslate{
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu{
+    background-color: transparent;
+}
+
+  .navbar .dropdown.show a { 
+    background-color:#161617;
+  }
+
+  .navbar .dropdown.show a :hover{ 
+    background-color: #bb51ce;
+  }
+
+
+
+
 .navbar{
     /*    background-color: #0F0E2E!important; */
        background-color: #161617!important;

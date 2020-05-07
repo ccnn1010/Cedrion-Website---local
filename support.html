@@ -22,14 +22,13 @@
 </head>
 
 <body>
-
- <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container-fluid"> 
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
        <!--  <a class="navbar-brand" href="index.html"> <img src="https://s4.gifyu.com/images/Logo-whitebe4cbb06f13074e4.png" alt="Cedrion" class="logo"></a> -->
-     <a class="navbar-brand" href="index.html"> <img src=" https://s4.gifyu.com/images/cedrion-logo-with-circle-white.png" alt="Cedrion" class="logo"></a>
+        <a class="navbar-brand" href="index.html"> <img src=" https://s4.gifyu.com/images/cedrion-logo-with-circle-white.png" alt="Cedrion" class="logo"></a>
        
       <!--   <img src="http://files.123inventatuweb.com/14/01/1401906e-2d1e-4dd8-a839-efec600476f9.png" class="logo"></a> -->
-     <button class="navbar-toggler" id="toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        <button class="navbar-toggler" id="toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon" id="icon"></span>
         </button>
@@ -37,25 +36,40 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item px-3">
-                  <a class="nav-link" href="index.html">Home</a>
+                  <a class="nav-link english" href="index.html">Home</a>
+                  <a class="nav-link spanish" href="index.html">Inicio</a>
                 </li>
                 <li class="nav-item px-3">
-                  <a class="nav-link" href="projects.html">Projects</a>
+                    <a class="nav-link english" href="projects.html">Projects</a>
+                    <a class="nav-link spanish" href="projects.html">Proyectos</a>
                 </li>
                 <li class="nav-item px-3 active">
-                    <a class="nav-link" href="#">Support<span class="sr-only">(current)</span></a>
+                    <a class="nav-link english" href="support.html">Support<span class="sr-only">(current)</span></a>
+                    <a class="nav-link spanish" href="support.html">Soporte<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item px-3">
-                    <a class="nav-link" href="aboutUs.html">Team</a>
+                    <a class="nav-link english" href="aboutUs.html">Team</a>
+                    <a class="nav-link spanish" href="aboutUs.html">Equipo</a>
                 </li>
                 <li class="nav-item px-3">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link english" href="contact.html">Contact </a>
+                    <a class="nav-link spanish" href="contact.html">Contacto</a>
                 </li>
+            <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle english" href="http://example.com" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-us"> </span> Language </a>
+                  <a class="nav-link dropdown-toggle spanish" href="http://example.com" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-us"> </span> Idioma </a>
+  
+                  <div class="dropdown-menu" aria-labelledby="dropdown09">
+                      <a class="dropdown-item" href="#fr"><span class="flag-icon flag-icon-fr"> </span> <button class="languageTranslate" onclick="translateToEnglish()">EN</button> </a>
+                      <a class="dropdown-item" href="#fr"><span class="flag-icon flag-icon-fr"> </span> <button class="languageTranslate" onclick="translateToSpanish()">ES</button> </a>
+                      
+                  </div>
+              </li> 
+             <!--  https://forum.pinegrow.com/t/bootstrap-4-multilingual-site-menu/1720 -->
             </ul>
         </div>
     </div>
-  </nav> 
-
+  </nav>
 
   <section id="texto-support">
     <!-- <div class="row">
@@ -257,15 +271,20 @@
   </script> -->
 
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+ <!--   Scripts -->
+
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+</script>
+<script src="script.js"></script> 
 </body>
 
 </html>
