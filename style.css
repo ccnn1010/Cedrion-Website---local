@@ -240,7 +240,7 @@ body{
 
 .landing-box-1 h1 {
     text-align: center;
-    font-size: 2em;
+    font-size: 2.2rem;
     margin-top: 100px;
     color: white;
     /* letter-spacing: 3px; */
@@ -339,7 +339,7 @@ body{
 
 
   .highlight {
-    font-size: 2rem;
+    font-size: 2.2rem;
     color: #fff;
     text-align: center;
     -webkit-animation: glow 1.7s ease-in-out infinite alternate;
@@ -382,7 +382,11 @@ body{
       .landing-box-2 {
         padding: 35px;
     }
-    
+
+    .highlight {
+        font-size: 1.5rem;
+    }
+       
 }
 
 
