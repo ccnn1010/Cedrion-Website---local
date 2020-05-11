@@ -15,6 +15,12 @@ const translateToSpanish = () => {
 
 
 
+
+
+
+
+
+
 /* Send message to email */
 /* 
 $('#send').on('click', function(e) {

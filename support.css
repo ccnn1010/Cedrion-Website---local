@@ -250,7 +250,7 @@ section{
     width: 100%;
     border-style: none;
     max-width: 100%;
-    background: -webkit-linear-gradient(to right, hsla(244, 59%, 21%, 0.692), hsla(168, 53%, 52%, 0.589));  /* Chrome 10-25, Safari 5.1-6 */
+   /*  background: -webkit-linear-gradient(to right, hsla(244, 59%, 21%, 0.692), hsla(168, 53%, 52%, 0.589));  */ /* Chrome 10-25, Safari 5.1-6 */
     
     
 }
