@@ -1,3 +1,6 @@
+
+/* Change website to Spanish */
+
 const translateToEnglish = () => {
   $(".english").css("display", "block")
   $(".spanish").css("display", "none")
@@ -12,8 +15,26 @@ const translateToSpanish = () => {
 
 
 
+/* Send message to email */
+/* 
+$('#send').on('click', function(e) {
+  e.preventDefault();
+  subject = $('#subject').val();
+  body = $('#body').val();
+  window.location = "mailto:ccnn1010@gmail.com?subject=" + subject + "&body=" + body;
+});
+ */
+
+/* $('#send').on('click', function(e) {
+  e.preventDefault();
+  defaultContactFormName = $('#defaultContactFormName').val();
+  defaultContactFormEmail = $('#defaultContactFormEmail').val();
+  exampleFormControlTextarea2 = $('#exampleFormControlTextarea2').val();
+  window.location = "mailto:ccnn1010@gmail.com?defaultContactFormName=" + defaultContactFormName + "&defaultContactFormEmail=" + defaultContactFormEmail; + "&exampleFormControlTextarea2=" + exampleFormControlTextarea2;
+});
 
 
+ */
 
 
 
