@@ -33,16 +33,18 @@ body{
 
 body p{
     color: white;
-    margin-top: 10px;
+    margin-top: 20px;
     font-weight: inherit;
     font-family: 'Monda', sans-serif;
-    line-height: 2.6rem;
+    line-height: 2.1rem;
     font-size: 1.3rem;
+    padding-bottom: 5%;
 }
 
 body h2{
     color: white;
 }
+
 
 /* .container_image{
     width: 100%;
@@ -261,7 +263,7 @@ img{
 .container-fluid_vision{
     display: flex;
     background-color: #DAD1FF;    
-    padding: 3rem;
+    padding: 1.6rem;
     width: 100%;
     height: auto;
     margin: 0;
@@ -278,6 +280,7 @@ img{
     color: white;
     font-size: 2.45rem;
     font-weight: bold;
+    padding-top: 10%;
 }
 
 /*  Team container  */
@@ -293,15 +296,17 @@ img{
     display: flex;
     opacity: 0.6;
     position: relative;
+
 }
 
+/* 
 .container-fluid_team p{
     display: flex;
     height: 100vh;
     justify-content: center;
     padding: 2rem;
     color: white;
-}
+} */
 
 .container-fluid_team span{
     color: white;
@@ -360,7 +365,7 @@ hr{
 /* Founders container */
 
 .container-fluid_founders{
-    padding: 3rem;
+    padding: 1.6rem;
     background-color: white;
 }
 .container-fluid_founders p{
@@ -439,6 +444,14 @@ h3{
     color: #333;
     font-weight: bold;
 }
+
+.card-position{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 .card {
     /* height: 243px;
@@ -632,7 +645,11 @@ h3{
     
     /* -----------/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) -----------*/
     @media (min-width:770px) and (max-height: 1366px)   {
-       
+        body p {
+            padding-bottom: 0; 
+            line-height: 2.5rem;
+        } 
+
         .cta-button-3{
             text-align: end;
         }
@@ -648,6 +665,24 @@ h3{
     #up-bottom{
         margin-right: 41%;
     }
+
+    .container-fluid_vision h2 {
+        padding-top: 2%;
+    }
+
+    #founders p {
+         padding-top: 0; 
+    }
+
+    .container-fluid_vision {
+        padding: 3rem;
+    }
+
+    .container-fluid_founders {
+        padding: 3rem;
+    }
+
+  
 
 /* 
     .myImage{
@@ -685,4 +720,3 @@ h3{
         }
     }
   */
-
