@@ -552,14 +552,16 @@ body{
     }
     .about-us p {
        /*  text-align: left; */
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         padding-top: 20px;
         line-height: 27px;
     /*     padding-right: 20%; */
         line-height: 2.6rem;
        /*  padding-left: 2%; */
-       padding-right: 5%;
-       padding-left: 5%;
+      /*  padding-right: 5%;
+       padding-left: 5%; */
+       padding-right: 12%;
+        padding-left: 12%;
 
     }
 }
@@ -667,7 +669,7 @@ body{
 
         
         .corona-discharge p{
-            font-size: 1.5rem;
+            font-size: 1.3rem;
             line-height: 2.6rem;
         }
 
@@ -821,13 +823,15 @@ body{
     }
     .device-features p {
       /*   text-align: left; */
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         padding-top: 20px;
         line-height: 27px;
     /*     padding-right: 20%; */
         line-height: 2.6rem;
-        padding-left: 5%;
-        padding-right: 5%;
+    /*     padding-left: 5%;
+        padding-right: 5%; */
+        padding-right: 12%;
+        padding-left: 12%;
 
     }
 
@@ -1399,6 +1403,7 @@ form .form-control:placeholder {
     box-shadow: none;
 }
  */
+
 
 
 
