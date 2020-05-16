@@ -70,6 +70,10 @@ body h2{
     padding-left: 17px;
 }
 
+#dropdown10 {
+    padding-left: 17px;
+}
+
 .navbar-expand-lg .navbar-nav .dropdown-menu{
     background-color: transparent;
 }
@@ -720,3 +724,4 @@ h3{
         }
     }
   */
+

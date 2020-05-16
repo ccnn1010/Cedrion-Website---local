@@ -56,6 +56,10 @@ body{
     padding-left: 17px;
 }
 
+#dropdown10 {
+    padding-left: 17px;
+}
+
 .navbar-expand-lg .navbar-nav .dropdown-menu{
     background-color: transparent;
 }
@@ -407,7 +411,7 @@ body{
 @media (max-width: 360px) { 
     .landing-box-1 h1 {
         margin-top: 60px;
-        font-size: 1.5rem;
+        font-size: 2rem;
        } 
 
        .landing-box-1 p {
@@ -424,7 +428,7 @@ body{
     }
 
     .highlight {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     
 }
@@ -1078,7 +1082,7 @@ body{
 
 
 /* -----------/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) -----------*/
-@media (min-width:770px) and (max-height: 1366px)   {
+@media (min-width:1200px) and (max-height: 1366px)   {
    
     .cta-button-4{
         display: none;
@@ -1106,7 +1110,7 @@ body{
 
 .contact-box-1{
     /*  background: url("https://s0.gifyu.com/images/Team-work-1--cropped.md.jpg") no-repeat center center fixed; */
-    background: linear-gradient(to right, hsla(244, 59%, 21%, 0.692), hsla(168, 53%, 52%, 0.589)), url('./img/contact-page-background-image-2.jpg');
+    background: linear-gradient(to right, hsla(244, 59%, 21%, 0.9), hsla(168, 53%, 52%, 0.8)), url('./img/contact-page-background-image-2.jpg');
   /*   opacity: 90%; */
      -webkit-background-size: cover;
      -moz-background-size: cover;
@@ -1221,7 +1225,7 @@ form .form-control:placeholder {
 .contact-box-2{
     padding-top: 80px;
     padding-bottom: 100px;
-    padding-right: 30px;
+  /*   padding-right: 30px; */
 }
  
  .contact-box-2 h6{
@@ -1405,7 +1409,11 @@ form .form-control:placeholder {
  */
 
 
-
-
-
- 
+/* 
+ .wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-style: none;
+    height: 250px;
+} */

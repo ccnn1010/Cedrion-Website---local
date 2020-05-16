@@ -104,6 +104,10 @@ body h2{
     padding-left: 17px;
 }
 
+#dropdown10 {
+    padding-left: 17px;
+}
+
 .navbar{
     /*    background-color: #0F0E2E!important; */
        background-color: #161617!important;
@@ -217,6 +221,39 @@ img{
     text-align: center;
 }  
 
+
+/* .row{
+    border: 1px solid red;
+} */
+
+
+
+.container-fotos-one{
+    display: flex;
+    justify-content: center;
+    /* padding-bottom: 5%;
+    padding-top: 2%; */
+    /* width: 40rem; */
+ /*    border: 1px solid red; */
+}
+
+
+.incubators-images{
+/*     border: 1px solid red; */
+    padding-right: 2%;
+    padding-left: 2%;
+
+}
+
+.container-fotos-one img{
+    /* align-items: center; */
+    width: 18rem; 
+  /*   border: 1px solid red; */
+  /*   padding-bottom: 10%;
+    padding-top: 10%;   */
+}
+
+
 .container-fotos{
     display: flex;
     /* padding-bottom: 8%; */
@@ -225,17 +262,8 @@ img{
     /* margin-left: 21rem;
     margin-right: 21rem; */
     justify-content: center;
+    /* border: 1px solid red; */
 }
-
-.container-fotos-one{
-    display: flex;
-    /* padding-bottom: 5%;
-    padding-top: 2%; */
-    padding-bottom: 10%;
-    padding-top: 10%;
-    
-}
-
 
 
 /*  New Support section styles */
@@ -244,9 +272,10 @@ section{
     width: 100%;
     height: 50vh;
     background: #43C6AC;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(244, 59%, 21%, 0.692), hsla(168, 53%, 52%, 0.589)), url(./img/support.jpg);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(244, 59%, 21%, 0.692), hsla(168, 53%, 52%, 0.589)), url(./img/support.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-size: cover;
+   /*  background: -webkit-linear-gradient(to right, hsla(244, 59%, 21%, 0.692), hsla(168, 53%, 52%, 0.589)), url(./img/support.jpg);  */ /* Chrome 10-25, Safari 5.1-6 */
+   /*  background: linear-gradient(to right, hsla(244, 59%, 21%, 0.692), hsla(168, 53%, 52%, 0.589)), url(./img/support.jpg); */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   background: linear-gradient(to right, hsla(244, 59%, 21%, 0.9), hsla(168, 53%, 52%, 0.8)), url(./img/support.jpg);
+   background-size: cover;
     /* background-attachment: fixed; */
     position: relative;
     
@@ -437,6 +466,9 @@ section{
     /* position: relative; */
 /* }   */ 
 
+
+
+
 /*  Accelerators and incubators container  */
 
 #incubators{
@@ -454,10 +486,9 @@ section{
     margin-top: 5%;
     margin-bottom: 5%;
 
-    
-
-    
 } */
+
+
 #incubators h2{
     padding-right: 3%;
     padding-bottom: 10%;
@@ -465,14 +496,12 @@ section{
 }
 
 
-
 .row_image{
     height: 60%;
 }
 
 .img-fluid{
-    max-width: 100%;
-    
+    max-width: 100%; 
 }
 
 #eesa{
@@ -594,7 +623,11 @@ hr{
     box-shadow: 0 8px 6px -6px #777171;
 
 } */
-
+.european-images{
+  /*   border: 1px solid red; */
+    padding-right: 2%;
+    padding-left: 2%;
+}
 
 h2{
    color: black ;
@@ -631,6 +664,7 @@ h2{
     box-shadow: 2px 4px 20px rgba(68, 197, 172, 0.5);
     padding-right: 7%;
     padding-left: 7%;
+    width: 18rem;
     
 }
 
@@ -647,6 +681,7 @@ h2{
     box-shadow: 2px 4px 20px rgba(68, 197, 172, 0.5);
     padding-right: 7%;
     padding-left: 7%;
+    width: 18rem;
 }
 
 
@@ -697,6 +732,17 @@ h2{
     height: 60%;
 }
 
+
+.national-images{
+  /*   border: 1px solid red; */
+    padding-right: 2%;
+    padding-left: 2%;
+
+}
+
+
+
+
 #madridtech{
     /* width: 73%;
     height: 84%; */
@@ -708,6 +754,7 @@ h2{
     box-shadow: 2px 4px 20px rgba(147, 54, 255, 0.5);
     padding-right: 7%;
     padding-left: 7%;
+    width: 18rem;
 }
 
 #neotec{
@@ -721,6 +768,7 @@ h2{
     box-shadow: 2px 4px 20px rgba(147, 54, 255, 0.5);
     padding-right: 7%;
     padding-left: 7%;
+    width: 18rem;
 }
 
 
@@ -914,14 +962,14 @@ i{
             margin-left: 21rem; 
             margin-right: 21rem;
         } */
-        .row{
+       /*  .row{
             display: flex;
             flex-wrap: wrap;
             margin-left: auto;
             margin-right: auto;
-            /* margin: 45px; */
+
     
-        }
+        } */
     } 
 
      /* ----------iphone 5 media query ----------  */
@@ -987,6 +1035,23 @@ i{
     .cta-button-3{
         text-align: end;
     }
-}
 
-    
+    .incubators-images{
+        /*     border: 1px solid red; */
+            padding-right: 20%;
+            padding-left: 20%;
+        
+        }
+
+    .european-images {
+        /* border: 1px solid red; */
+         padding-right: 20%;
+        padding-left: 20%;
+    }
+    .national-images{
+        /*   border: 1px solid red; */
+          padding-right: 20%;
+          padding-left: 20%;
+      
+      }
+}
