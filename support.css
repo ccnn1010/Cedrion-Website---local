@@ -128,22 +128,22 @@ body h2{
    }
    
    .navbar-dark .navbar-nav .nav-link {
-       color: white;
+        color: white;
    }
    
    .navbar-dark .navbar-nav .nav-link:hover{
-      color: #bb51ce; 
-     background: rgba(59, 57, 59, 0.616);
-    transition: background .3s;
-    border-radius: 5px; 
+        color: #bb51ce; 
+        background: rgba(59, 57, 59, 0.616);
+        transition: background .3s;
+        border-radius: 5px; 
    }
    
    .navbar-dark .navbar-toggler  {
        border: none;
        outline: none;
-     }
+    }
    
-     .active a{
+    .active a{
        font-weight: bold;
    }
    
@@ -151,6 +151,8 @@ body h2{
        color: #bb51ce; 
    }
 
+
+   
 .logo{
     min-width: 117px;
     max-width: 87px;
@@ -245,13 +247,13 @@ img{
 
 }
 
-.container-fotos-one img{
+/* .container-fotos-one img{ */
     /* align-items: center; */
-    width: 18rem; 
+ /*    width: 18rem;  */
   /*   border: 1px solid red; */
   /*   padding-bottom: 10%;
     padding-top: 10%;   */
-}
+/* } */
 
 
 .container-fotos{
@@ -262,6 +264,7 @@ img{
     /* margin-left: 21rem;
     margin-right: 21rem; */
     justify-content: center;
+    
     /* border: 1px solid red; */
 }
 
@@ -288,9 +291,12 @@ section{
     border-style: none;
     max-width: 100%;
     background: -webkit-linear-gradient(to right, hsla(244, 59%, 21%, 0.692), hsla(168, 53%, 52%, 0.589));  /* Chrome 10-25, Safari 5.1-6 */
-    
-    
+    height: 180px; 
+    overflow: hidden;
 }
+
+
+
 
 #content-support{
     display: flex;
@@ -515,6 +521,7 @@ section{
     box-shadow: 2px 4px 20px rgba(147, 54, 255, 0.5);
     padding-right: 7%;
     padding-left: 7%;
+    width: 18rem;
     
 }
 
@@ -539,7 +546,7 @@ section{
     /* box-shadow: 2px 4px 20px rgba(147, 54, 255, 0.5); */
     padding-right: 7%;
     padding-left: 7%;
-    
+    width: 18rem;
 }
 
 .btndown{
@@ -902,14 +909,14 @@ i{
     /* padding-bottom: 60px; */
 }
 
- .cta-button-3 {
+.cta-button-3 {
     /*   text-align: center;  */
         padding: 2%;
        /*  margin-top: 600px; */
     
-    }
+}
   
- .cta-button-3 a {
+.cta-button-3 a {
     border:1px solid white; 
     display: inline-block;
     color:white;
@@ -917,9 +924,9 @@ i{
     padding: 0.5em 0.5em;
     border-radius: 50%;
     font-size: 1.5em;
-    }
+}
     
-    .cta-button-3 a:hover {
+.cta-button-3 a:hover {
         color: white;
         text-decoration: none;
         box-shadow: inset 0 -2em 0 rgba(187, 81, 206, 0.5);
@@ -928,7 +935,7 @@ i{
        /* box-shadow: inset 0 -2em 0 rgba(208, 0, 227, 0.3); */ 
        /* box-shadow: inset 0 -2em 0 rgba(250, 95, 229, 0.3); */
      
-    } 
+} 
 
 
 
@@ -956,12 +963,13 @@ i{
         }
     } */
     
-     @media (min-width: 878px) {
+/* @media (min-width: 878px) { */
         /* .container-fotos {
             display: flex; 
             margin-left: 21rem; 
             margin-right: 21rem;
         } */
+    
        /*  .row{
             display: flex;
             flex-wrap: wrap;
@@ -969,21 +977,45 @@ i{
             margin-right: auto;
 
     
-        } */
-    } 
+    }
+} 
+} */
+     
 
      /* ----------iphone 5 media query ----------  */
      @media (max-width: 320px) { 
-        .wave{
+       /*  .wave{
            display: none;
+        } */
+        .wave{
+            height: 100px;
+         } 
+
+
+         #incubators h2 {
+            font-size: 1.8rem;
+        }
+
+        #european h2 {
+            font-size: 1.8rem;
+        }
+
+        #national h2 {
+            font-size: 1.8rem;
+        }
+
+        #container-little h4 {
+            padding-top: 15%;
+            line-height: 2rem;
         }
     }
+    
 
 
 
     
 
-/*  ----------large screen and desktop media query ----------  */
+
 /*  ----------large screen and desktop media query ----------  */
 
 @media (min-width:770px) and (max-height: 1366px)   {
@@ -1038,20 +1070,20 @@ i{
 
     .incubators-images{
         /*     border: 1px solid red; */
-            padding-right: 20%;
-            padding-left: 20%;
+            padding-right: 10%;
+            padding-left: 10%;
         
         }
 
     .european-images {
         /* border: 1px solid red; */
-         padding-right: 20%;
-        padding-left: 20%;
+         padding-right: 10%;
+        padding-left: 10%;
     }
     .national-images{
         /*   border: 1px solid red; */
-          padding-right: 20%;
-          padding-left: 20%;
+          padding-right: 10%;
+          padding-left: 10%;
       
       }
 }

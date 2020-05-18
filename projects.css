@@ -90,7 +90,6 @@ body h2{
 /* .sticky-top{
     opacity: 85%;
 } */
-
 /* --------- Translation ---------*/
 .english{
     display: block;
@@ -115,6 +114,7 @@ body h2{
     padding-left: 17px;
 }
 
+
 .navbar-expand-lg .navbar-nav .dropdown-menu{
     background-color: transparent;
 }
@@ -128,16 +128,21 @@ body h2{
     background-color: #bb51ce;
   }
 
+  
+
 
 .navbar{
  /*    background-color: #0F0E2E!important; */
     background-color: #161617!important;
     width: 100%;
     margin: 0;
-    padding: 0;
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 0; 
     min-height: 10vh;
     font-size: .9rem;
     font-weight: 400; 
+    padding-right: 1.5%;
 }
 
 
@@ -162,6 +167,7 @@ body h2{
 .navbar-dark .navbar-toggler  {
     border: none;
     outline: none;
+    /* padding-right: 16px; */
   }
 
   .active a{
@@ -179,16 +185,16 @@ body h2{
     border: none;
 }
 
-.container{
+/* .container{
     display: flex;
     width: 100%;
     margin: 0px;
-    padding: 0px;
+    padding: 0px; */
     /* background-color: #2c2c2c; */
     /* background-color: rgb(52, 58, 64); */
-    background-color: #0F0E2E;
+/*     background-color: #0F0E2E;
 }
-
+ */
 
 #bg_projects{
     display: flex;
@@ -234,9 +240,11 @@ body h2{
     bottom: 0;
     width: 100%;
     border-style: none;
-    height: 250px;
+    height: 150px;
+    overflow: hidden;
     /* height: var(--wave-height); */
 }
+
 
 /* #content-projects{
     display: flex; */
@@ -446,8 +454,7 @@ body h2{
  */
 
 .pic1{
-    /* margin: 30px; */
-    margin: 12px;
+    margin: 15px; 
     text-align: center;
   /*   border: 1px solid red; */
 }
@@ -457,28 +464,23 @@ body h2{
     height: 150px;
     border-radius: 50%;
     border: 7px solid #fff;
-    -webkit-box-shadow: 10px 7px 12px 7px rgba(207,118,255,0.79); 
-    /* box-shadow: 10px 7px 12px 7px rgba(205, 197, 210, 0.79);   */
-    /* box-shadow: 10px 7px 12px 7px #9c95e8;  */
     box-shadow: 10px 7px 12px -5px #b8b8bf;
     border: 3px #fff;
-    /* margin: 23px 22px 5px 5px; */
     transition: transform 2s, 1.5s ease-in-out;
 }
 
 
 
 .pic1 img:hover {
-    -ms-transform: scale(1.2); /* IE 9 */
-    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    -ms-transform: scale(1.2); 
+    -webkit-transform: scale(1.2); 
     transform: scale(1.2); 
 }
 
 
 
-.pic2{
-    /* margin: 30px; */
-    margin: 12px; 
+ .pic2{
+   /*  margin: 45px; */
     text-align: center;
   /*   border: 1px solid red; */
 }
@@ -488,22 +490,50 @@ body h2{
     height: 150px;
     border-radius: 50%;
     border: 7px solid #fff;
- /*    -webkit-box-shadow: 10px 7px 12px 7px rgba(207,118,255,0.79);  */
-    /* box-shadow: 10px 7px 12px 7px rgba(205, 197, 210, 0.79);   */
-    /* box-shadow: 10px 7px 12px 7px #9c95e8;  */
-   /*  box-shadow: 10px 7px 12px -5px #b8b8bf; */
-   box-shadow: 10px 7px 12px -5px rgba(68, 197, 172, 0.5);
+    box-shadow: 10px 7px 12px -5px rgba(68, 197, 172, 0.5);
     border: 3px #fff;
-    /* margin: 23px 22px 5px 5px; */
     transition: transform 2s, 1.5s ease-in-out;
 }
 
 
 
 .pic2 img:hover {
-    -ms-transform: scale(1.2); /* IE 9 */
-    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    -ms-transform: scale(1.2); 
+    -webkit-transform: scale(1.2); 
     transform: scale(1.2); 
+}
+
+
+
+
+
+.pic3{
+    /* margin: 12px; */
+    text-align: center;
+  /*   border: 1px solid red; */
+}
+
+.pic3 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+    box-shadow: 10px 7px 12px -5px #b8b8bf;
+    border: 3px #fff;
+    transition: transform 2s, 1.5s ease-in-out;
+}
+
+
+
+.pic3 img:hover {
+    -ms-transform: scale(1.2); 
+    -webkit-transform: scale(1.2); 
+    transform: scale(1.2); 
+}
+
+.container-one{
+    padding-right: 15%;
+    padding-left: 15%;
 }
 
 /* 
@@ -544,8 +574,10 @@ body h2{
 .projects .pic2 h6{
     color: white;
     margin-top: 8%;
-   /*  text-align: center; */
+    padding-right: 10%;
+    padding-left: 10%;
 }
+
 
 /*Container project 2*/
 
@@ -893,24 +925,34 @@ body h2{
             height: 200px;
         }
 
+        .pic2{
+            margin: 45px;
+        }
+
         .pic2 img{
             width: 200px;
             height: 200px;
         }
 
+
+        .pic3 img{
+            width: 200px;
+            height: 200px;
+        }
     
     }
 
 
      /* ----------iphone 5 media query ----------  */
      @media (min-width: 320px) and (max-height: 677px) { 
-        .wave{
-           display: none;
-        }
+         .wave{
+           /* display: none; */
+           height: 100px;
+        } 
 
         #bg_projects h1 {
-            margin-top: 70px;
-            padding: 1.6rem;
+           /*  margin-top: 70px; */
+            /* padding: 1.6rem; */
             font-size: 1.8rem;
         }
 
