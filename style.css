@@ -64,6 +64,15 @@ body{
     background-color: transparent;
 }
 
+.navbar-expand-lg .navbar-collapse {
+  padding-right: 15px;
+}
+
+
+.home .fa-globe:before {
+    padding-right: 5px;
+}
+
   .navbar .dropdown.show a { 
     background-color:#161617;
   }
@@ -133,6 +142,8 @@ body{
     padding: 0px;
     background-color: #0F0E2E;
 }
+
+
 
 
 /*--------------- Home section ---------------*/
@@ -1326,6 +1337,9 @@ form .form-control:placeholder {
     padding-right: 0;
     padding-left: 0;
 }
+ 
+
+
 
 
 /* #dot-nav ul{
