@@ -108,36 +108,38 @@
       <div id="contact-us">
         <div class="container-fluid p-0">
               <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 contact-box-1">
+                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 contact-box-1">
                   <h2 class="english">Contact Us</h2> 
-                  <h2 class="spanish">Contáctenos</h2> 
+                  <h2 class="spanish">Contáctanos</h2> 
                   <p class="english">Curious about what we do, or how are we able to do it? Contact us through the form or send us an email at:<span class="color-text">ingenieria@cedrion.com</span></p>
-                  <p class="spanish">¿Curioso sobre lo que hacemos, o cómo somos capaces de hacerlo? Contacte con nosotros a través del formulario o envíenos un correo electrónico a:<span class="color-text"> ingenieria@cedrion.com</span></p>
+                  <p class="spanish">¿Sientes curiosidad sobre lo que hacemos, o cómo somos capaces de hacerlo? Contacta con nosotros a través del formulario o envíanos un correo electrónico a:<span class="color-text"> ingenieria@cedrion.com</span></p>
                   <div class="form-padding">
-                  <form class="text-center p-4" action="mailto:ccnn1010@gmail.com" method="POST" enctype="text/plain">
+                  <form class="text-center p-4" action="/POST" method="POST" enctype="text/plain">
+                   <!--  action needs to match the same name on the server -->
                   <!-- <form class="text-center border border-light p-4" action="#!"> -->
                     <!-- Name -->
-                      <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name">
+                      <input type="text"  class="form-control mb-4 defaultContactFormName english" placeholder="Name">
+                      <input type="text"  class="form-control mb-4 defaultContactFormName spanish" placeholder="Nombre">
                     <!-- Email -->
-                      <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
+                      <input type="email"  class="form-control mb-4 defaultContactFormEmail english" placeholder="E-mail">
+                      <input type="email"  class="form-control mb-4 defaultContactFormEmail spanish" placeholder="Correo electrónico">
                     <!-- Message -->
                       <div class="form-group">
-                        <textarea  class="form-control" id="exampleFormControlTextarea2" rows="3" placeholder="Message..."></textarea>
+                        <textarea class="form-control exampleFormControlTextarea2 english"  rows="3" placeholder="Message..."></textarea>
+                        <textarea class="form-control exampleFormControlTextarea2 spanish"  rows="3" placeholder="Mensaje..."></textarea>
                       </div>
                     <!-- Send button -->
                       <button class="btn btn-info btn-block english" type="submit">Send</button>  
-                      <button class="btn btn-info btn-block spanish" type="submit" id="send">Enviar</button>  
+                      <button class="btn btn-info btn-block spanish" type="submit">Enviar</button>  
                 </form>
               </div>
-
-
                 
                 <!-- <div class="col-sm-6">
                   <h6>We are here...</h6>
                   <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12161.812128927715!2d-3.7445761!3d40.3544781!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4d41d124fc1ed78b!2sCEDRION!5e0!3m2!1ses!2ses!4v1586187298340!5m2!1ses!2ses" width="500" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> 
                 </div>  -->
               </div>
-              <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 contact-box-2">
+              <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 contact-box-2">
                 <h6 class="english">We are here...</h6>
                 <h6 class="spanish">Estamos aquí...</h6>
   
@@ -165,13 +167,7 @@
     <div class= "row footer-box">
      
       <div class= "col-sm-4 ">  
-       <!--  <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-us"> </span> EN </a>
-          <div class="dropdown-menu" aria-labelledby="dropdown09">
-              <a class="dropdown-item" href="#fr"><span class="flag-icon flag-icon-fr"> </span> ES </a>
-          </div>
-      </li>
-      <div class="translate"><h4>Language</h4></div> -->
+        <a href="privacyLink2.html"><h4 class="privacy">Privacy Policy</h4></a>
       </div>
   
       <div class= "col-sm-4 social-icons">
@@ -211,8 +207,3 @@
 
 </body>
 </html>
-
-
-
-
-
