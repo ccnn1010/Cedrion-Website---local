@@ -132,7 +132,7 @@ body h2{
 
 .navbar-toggler:not(:disabled):not(.disabled) {
     cursor: pointer;
-    margin-right: 2%;
+/*     margin-right: 2%; */
 }
 
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
@@ -145,7 +145,7 @@ body h2{
 .logo{
     min-width: 117px;
     max-width: 87px;
-    margin-left: 5px;
+    margin-left: 20px;
     border: none;
 }
 
@@ -542,7 +542,7 @@ h3{
         color: white;
         text-align: center;
         font-size: 1.1rem;
-        padding-left: 2%;
+        /* padding-left: 2%; */
         cursor: pointer;
         padding-bottom: 10%;
     }
@@ -668,6 +668,10 @@ h3{
             line-height: 2.5rem;
         } 
 
+        .logo{
+            margin-left: 5px;
+        }
+
         .cta-button-3{
             text-align: end;
         }
@@ -703,5 +707,6 @@ h3{
     .privacy{
         text-align: left;
         padding-top: 5%;
+        padding-left: 2%;
     }
 }

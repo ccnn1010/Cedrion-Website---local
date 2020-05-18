@@ -67,6 +67,9 @@ body h1{
     background-color: transparent;
 }
 
+.navbar-expand-lg .navbar-collapse {
+    padding-right: 15px;
+  }
   .navbar .dropdown.show a { 
     background-color:#161617;
   }
@@ -83,9 +86,7 @@ body h1{
     background-color: #161617!important;
     width: 100%;
     margin: 0;
-    padding-left: 0;
-    padding-top: 0;
-    padding-bottom: 0; 
+    padding: 0; 
     min-height: 10vh;
     font-size: .9rem;
     font-weight: 400; 
@@ -503,7 +504,7 @@ body h1{
         color: white;
         text-align: center;
         font-size: 1.1rem;
-        padding-left: 2%;
+     /*    padding-left: 2%; */
         cursor: pointer;
         padding-bottom: 10%;
     }
