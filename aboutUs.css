@@ -1,3 +1,14 @@
+/* .navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.5);
+    /*Aqui poner medida responsive no margin-left para llevar menu a la derecha*/
+/* } */
+
+/* .bg-light {
+    background-color: #f8f9fa!important;
+    width: 100%;
+}  */
+
+
 html{
     scroll-behavior: smooth;  
 }
@@ -28,7 +39,7 @@ body p{
     font-weight: inherit;
   /*   font-family: 'Monda', sans-serif; */
     line-height: 2.1rem;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     padding-bottom: 2%;
 }
 
@@ -114,10 +125,10 @@ body h2{
 .navbar-dark .navbar-nav .nav-link:hover{
     /* color: #00FFFB; */
  /*   color: #9336FF;  */
-    color: #bb51ce; 
-    background: rgba(59, 57, 59, 0.616);
-    transition: background .3s;
-     border-radius: 5px; 
+   color: #bb51ce; 
+  background: rgba(59, 57, 59, 0.616);
+ transition: background .3s;
+ border-radius: 5px; 
 }
 
 .navbar-dark .navbar-toggler  {
@@ -132,7 +143,7 @@ body h2{
 
 .navbar-toggler:not(:disabled):not(.disabled) {
     cursor: pointer;
-/*     margin-right: 2%; */
+   /*  margin-right: 2%; */
 }
 
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
@@ -279,7 +290,7 @@ img{
 
 .container-fluid_vision h2 {
     color: white;
-    font-size: 2.45rem;
+    font-size: 2.1rem;
     font-weight: bold;
     padding-top: 2%;
 }
@@ -375,7 +386,7 @@ hr{
 .container-fluid_founders span{
     color: #0F0E2E;
     font-weight: bold;
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     /* padding-bottom: 2%; */
 }
 
@@ -542,9 +553,8 @@ h3{
         color: white;
         text-align: center;
         font-size: 1.1rem;
-        /* padding-left: 2%; */
         cursor: pointer;
-        padding-bottom: 10%;
+        padding-bottom: 5%;
     }
     
     .privacy:hover{
@@ -662,15 +672,16 @@ h3{
     
     
     /* -----------/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) -----------*/
-    @media (min-width:770px) and (max-height: 1366px)   {
-        body p {
-            padding-bottom: 0; 
-            line-height: 2.5rem;
-        } 
-
+    @media (min-width:770px) and (max-height: 1883px)   {
         .logo{
             margin-left: 5px;
         }
+        
+        body p {
+            padding-bottom: 0; 
+            line-height: 2.5rem;
+            font-size: 1.3rem;
+        } 
 
         .cta-button-3{
             text-align: end;
@@ -700,13 +711,17 @@ h3{
         padding: 3rem;
     }
 
+    .container-fluid_vision h2 {
+        font-size: 2.45rem;
+    }
+
     .container-fluid_founders {
         padding: 3rem;
+        font-size: 2.5rem;
     }
 
     .privacy{
         text-align: left;
         padding-top: 5%;
-        padding-left: 2%;
     }
 }
