@@ -390,7 +390,7 @@ body{
     }
     
     to {
-      text-shadow: 0 0 20px #fff, 0 0 30px #f04dff, 0 0 40px #f04dff, 0 0 50px #f04dff, 0 0 60px #f04dff, 0 0 70px #f04dff, 0 0 80px #f04dff;
+      text-shadow: 0 0 20px #fff, 0 0 30px #f04dff, 0 0 40px #f04dff, 0 0 50px #f04dff, 0 0 60px #f04dff, 0 0 70px #f04dff, 0 0 20px #f04dff;
     }
   }
 
@@ -940,9 +940,8 @@ body{
     color: white;
     text-align: center;
     font-size: 1.1rem;
-   /*  padding-left: 2%; */
     cursor: pointer;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
 }
 
 .privacy:hover{
@@ -1053,49 +1052,44 @@ a:hover{
     } 
 
 
-
-
-/*-------------- Scroll up to top button -----------------*/
-  
-.cta-button-4{
-    /*  border: 2px solid green;  */
-   /*  display: table-cell;  */
- /*    text-align: end; */
-    text-align: center;
-    width: 100%;
-    /* padding-bottom: 60px; */
-}
-
- .cta-button-4 {
-    /*   text-align: center;  */
-        padding: 2%;
-       /*  margin-top: 600px; */
-    
-    }
-  
- .cta-button-4 a {
-    border:1px solid white; 
-    display: inline-block;
-    color:white;
-    text-decoration: none;
-    padding: 0.5em 0.5em;
-    border-radius: 50%;
-    font-size: 1.5em;
-    }
-    
-    .cta-button-4 a:hover {
-        color: white;
-        text-decoration: none;
-        box-shadow: inset 0 -2em 0 rgba(187, 81, 206, 0.5);
-          /* Alternative colour */
-       /*  box-shadow: inset 0 -2em 0 rgba(89,34,213, 0.5);  */
-       /* box-shadow: inset 0 -2em 0 rgba(208, 0, 227, 0.3); */ 
-       /* box-shadow: inset 0 -2em 0 rgba(250, 95, 229, 0.3); */
      
-    } 
-
-
-
+.cta-button-4{
+/*     border: 2px solid green;   */
+     /*  display: table-cell;  */
+   /*    text-align: end; */
+      text-align: center;
+      width: 100%;
+      /* padding-bottom: 60px; */
+  }
+  
+   .cta-button-4 {
+      /*   text-align: center;  */
+          padding: 2%;
+         /*  margin-top: 600px; */
+      
+      }
+    
+   .cta-button-4 a {
+      border:1px solid white; 
+      display: inline-block;
+      color:white;
+      text-decoration: none;
+      padding: 0.5em 0.5em;
+      border-radius: 50%;
+      font-size: 1.5em;
+      }
+      
+      .cta-button-4 a:hover {
+          color: white;
+          text-decoration: none;
+          box-shadow: inset 0 -2em 0 rgba(187, 81, 206, 0.5);
+            /* Alternative colour */
+         /*  box-shadow: inset 0 -2em 0 rgba(89,34,213, 0.5);  */
+         /* box-shadow: inset 0 -2em 0 rgba(208, 0, 227, 0.3); */ 
+         /* box-shadow: inset 0 -2em 0 rgba(250, 95, 229, 0.3); */
+       
+      } 
+  
 
 /* -----------/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) -----------*/
 @media (min-width:770px) and (max-height: 1366px)   {
@@ -1105,6 +1099,8 @@ a:hover{
     }
 
 
+/*-------------- Scroll up to top button -----------------*/
+ 
     .privacy{
         text-align: left;
         padding-top: 5%;
@@ -1114,9 +1110,9 @@ a:hover{
 /* -----------/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) -----------*/
 @media (min-width:1200px) and (max-height: 1366px)   {
    
-    .cta-button-4{
+   .cta-button-4{
         display: none;
-    }
+    } 
 
 }
 
@@ -1139,20 +1135,17 @@ a:hover{
 } */
 
 .contact-box-1{
-    /*  background: url("https://s0.gifyu.com/images/Team-work-1--cropped.md.jpg") no-repeat center center fixed; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     background: linear-gradient(to right, hsla(244, 59%, 21%, 0.9), hsla(168, 53%, 52%, 0.8)), url('./img/contact-page-background-image-2.jpg');
-  /*   opacity: 90%; */
-     -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -o-background-size: cover;
-     background-size: cover;
- /*     box-shadow: inset 29px 33px 500px 600px rgba(9, 1, 10, 0.692); */
-     /* padding: 10px 30px 10px; */
-     overflow:hidden;
-     padding-top: 90px;
-     padding-bottom: 100px;
-/*   padding-right: 30px; */
-
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow:hidden;
+    padding-top: 10px;
+    padding-bottom: 50px;
  }
  
  
@@ -1253,8 +1246,11 @@ form .form-control:placeholder {
 
 /*---------------contact-box-2 ----------*/
 .contact-box-2{
-    padding-top: 80px;
-    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 50px; 
   /*   padding-right: 30px; */
 }
  
@@ -1307,37 +1303,28 @@ form .form-control:placeholder {
         padding-right: 5%;
         padding-left: 5%;
     }
+
+    .contact-box-1 h2 {
+       padding-top: 100px; 
+    }
+
+    
+}
+ 
+    
+/*  ----------iphone 5 media query ----------  */
+@media (max-width: 360px) { 
+    .contact-box-1 h2 {
+        font-size: 1.8rem;
+        padding-top: 10%;
+    }
+    .contact-box-1 p {
+        font-size: 1.1rem;
     }
     
-/* 
-.map-area{
-    padding-left: 100px;
+ 
 }
 
-
-.map-area h6{
-    color: white;
-}
-
-
-.map{
-    border-radius: 5px;
-} */
-/* .map-container-6{
-    overflow:hidden; */
-    /* padding-bottom:56.25%; */
-  /*   position:relative;
-   
-    } */
-    /* .map-container-6 iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-    padding: 5%; */
-   /*  width:650px; 
-    height: 350px; */
 
 
 /* This code needs to be at the end of the style sheet */
@@ -1345,6 +1332,10 @@ form .form-control:placeholder {
     margin: 0;
  }
 
+ .contact-row {
+    min-height: 90vh;
+    padding-top: 5rem;
+ }
 
  .home-row{
     display: flex;
@@ -1356,3 +1347,5 @@ form .form-control:placeholder {
     padding-right: 0;
     padding-left: 0;
 }
+
+
